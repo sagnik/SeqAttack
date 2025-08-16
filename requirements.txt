@@ -1,8 +1,12 @@
 torch==1.7.0
 textattack==0.2.15
 tensorflow==2.3.4
-tensorflow-hub
-pygit2
-python-Levenshtein
-seqeval
-openattack
+tensorflow-hub==0.9.0
+pygit2==1.5.0
+python-Levenshtein==0.12.2
+seqeval==1.2.2
+openattack==2.1.1
+datasets==1.2.0
+tqdm>=4.27.0,<4.50
+numpy=1.18.0
+protobuf<4,>=3.20.0

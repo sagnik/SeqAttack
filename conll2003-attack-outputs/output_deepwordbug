@@ -1,0 +1,2052 @@
+*****************************************
+Starting attack on conll2003
+*****************************************
+-----------------------------------------
+Attacking sample: SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .
+Labels: O O B-LOC O O O O B-PER O O O O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT .
+Labels: O O O O O O O B-ORG O O O O
+-----------------------------------------
+Attacking sample: Nadim Ladki
+Labels: B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: Nadim Ladki
+Labels: B-PER I-PER
+-----------------------------------------
+Attacking sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: B-LOC O B-LOC I-LOC I-LOC O
+
+Result: Failed
+
+Perturbed sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: I-LOC O B-LOC I-LOC I-LOC O
+-----------------------------------------
+Attacking sample: Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday .
+Labels: B-LOC O O O O O B-MISC I-MISC O O O O O O O B-LOC O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan began the defence of their Asian Cup ittle with a lucky 2-1 win against Syria in a Group C championship mach on Frigay .
+Labels: B-LOC O O O O O B-MISC I-MISC O O O O O O O B-LOC O O O O O O O O O
+-----------------------------------------
+Attacking sample: But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan .
+Labels: O B-LOC O O O O O O O O O O O O O O O O O O O O O B-LOC O
+
+Result: Failed
+
+Perturbed sample: ut China saw their luSck desert them in the second maPch of the group , Zcrashing to a Wurprise 20- defeat to newcomers Uzbekistan .
+Labels: O B-LOC O O O O O O O O O O O O O O O O O O O O O B-LOC O
+-----------------------------------------
+Attacking sample: China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net .
+Labels: B-LOC O O O O O O O O O O O O O O O B-MISC O B-PER I-PER O O O O O O O O O O O O O O B-MISC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: China controller most of the maSch and Jsaw sqveral Tchances missed until the 7q8th minute when Uzbek strkier Igor Shkvyrin tmok advntage of a Lisdirected defensivH header to olb the ball over the advuncing Chinese keepeZr and into an Rmpty dnet .
+Labels: B-LOC O O O O O O O O O O O O O O O I-MISC O B-PER I-PER O O O O O O O O O O O O O O B-MISC O O O O O O O
+-----------------------------------------
+Attacking sample: Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area .
+Labels: B-PER I-PER O O O O O O O O O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Oleg Shatskiku maRde sRre of the wgin in isnjury time , hitting an unstopHpable let foot shto from just outside the auea .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: The former Soviet republic was playing in an Asian Cup finals tie for the first time .
+Labels: O O B-MISC O O O O O B-MISC I-MISC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Zhe former Soviet republiKc was playing in an Asian Cup finFals tie for the frist time .
+Labels: O O B-MISC O O O O O B-MISC I-MISC O O O O O O O
+-----------------------------------------
+Attacking sample: Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders .
+Labels: O O O B-MISC I-MISC O O O O O B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: DeGspite wYinning the Asian Games title tow yeaXrs ago , Uzbekistan are in the finals as outsidOrs .
+Labels: O O O B-MISC I-MISC O O O O O B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: Two goals from defensive errors in the last six minutes allowed Japan to come from behind and collect all three points from their opening meeting against Syria .
+Labels: O O O O O O O O O O O B-LOC O O O O O O O O O O O O O O B-LOC O
+
+Result: Failed
+
+Perturbed sample: Two goals from defensive error in the blast isx Sminutes allowed Japan to come from beTind and collect all there poinZs from their opMening Heeting against Syria .
+Labels: O O O O O O O O O O O B-LOC O O O O O O O O O O O O O O B-LOC O
+-----------------------------------------
+Attacking sample: Takuya Takagi scored the winner in the 88th minute , rising to head a Hiroshige Yanagimoto cross towards the Syrian goal which goalkeeper Salem Bitar appeared to have covered but then allowed to slip into the net .
+Labels: B-PER I-PER O O O O O O O O O O O O B-PER I-PER O O O B-MISC O O O B-PER I-PER O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Takuya Takagi sored the winner in the 8j8th minte , irsing to ead a Hiroshige Yanagimoto cross Btowards the Syrian goal which galkeeper Salem Bitar appeared to have Jcovered but then allyowed to sliip into the Met .
+Labels: B-PER I-PER O O O O O O O O O O O O B-PER I-PER O O O B-MISC O O O B-PER I-PER O O O O O O O O O O O B-ORG O
+-----------------------------------------
+Attacking sample: It was the second costly blunder by Syria in four minutes .
+Labels: O O O O O O O B-LOC O O O O
+
+Result: Failed
+
+Perturbed sample: I was the second coQstly blunder by Syria in four mintes .
+Labels: O O O O O O O B-LOC O O O O
+-----------------------------------------
+Attacking sample: Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .
+Labels: O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-PER O O O
+
+Result: Failed
+
+Perturbed sample: Defendur Hassan Abbas rsoe to Kintercept a lonHg balx into the arEa in the 4th miTnute but only managed to divert it into the top cjorner of Bitar 's goa .
+Labels: O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-ORG O O O
+-----------------------------------------
+Attacking sample: Nader Jokhadar had given Syria the lead with a well-struck header in the seventh minute .
+Labels: B-PER I-PER O O B-LOC O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Nader Jokhadar had igven Syria the lNead with a well-struck eader in the sAventh mintue .
+Labels: B-PER I-PER O O B-LOC O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Japan then laid siege to the Syrian penalty area for most of the game but rarely breached the Syrian defence .
+Labels: B-LOC O O O O O B-MISC O O O O O O O O O O O B-MISC O O
+
+Result: Failed
+
+Perturbed sample: Japan then Oaid sieg to the Syrian peJnalty areea for most of the game but rarel breMched the Syrian deVfence .
+Labels: B-LOC O O O O O B-MISC O O O O O O O O O O O B-MISC O O
+-----------------------------------------
+Attacking sample: Bitar pulled off fine saves whenever they did .
+Labels: B-PER O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Bitar pGulled off fine saves whenever they did .
+Labels: B-ORG O O O O O O O O
+-----------------------------------------
+Attacking sample: Japan coach Shu Kamo said : ' ' The Syrian own goal proved lucky for us .
+Labels: B-LOC O B-PER I-PER O O O O O B-MISC O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Japan coac Shu Kamo sai : ' ' The Syrian own gRoal proved lucky for us .
+Labels: B-LOC O O B-PER O O O O O B-MISC O O O O O O O
+-----------------------------------------
+Attacking sample: The Syrians scored early and then played defensively and adopted long balls which made it hard for us . '
+Labels: O B-MISC O O O O O O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Teh Syrians scored narly and then played dfeensively and adopted long baalls which made it hard for Ps . '
+Labels: O I-MISC O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: '
+Labels: O
+
+Result: Skipped
+
+Perturbed sample: '
+Labels: O
+-----------------------------------------
+Attacking sample: Japan , co-hosts of the World Cup in 2002 and ranked 20th in the world by FIFA , are favourites to regain their title here .
+Labels: B-LOC O O O O B-MISC I-MISC O O O O O O O O O B-ORG O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan , co-hoss of the World Cup in 2R02 and Eranked 20th in the orld by FIFA , are favourites to regain their Ltitle here .
+Labels: B-LOC O O O O B-MISC I-MISC O O O O O O O O O B-ORG O O O O O O O O O
+-----------------------------------------
+Attacking sample: Hosts UAE play Kuwait and South Korea take on Indonesia on Saturday in Group A matches .
+Labels: O B-LOC O B-LOC O B-LOC I-LOC O O B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Hostos UAE play Kuwait and South Korea tEke on Indonesia on Sturday in Group A mtches .
+Labels: O B-LOC O B-LOC O B-LOC I-LOC O O B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: All four teams are level with one point each from one game .
+Labels: O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: All four teams are level with one point each from one game .
+Labels: O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR .
+Labels: B-ORG I-ORG O B-PER O O B-LOC O O O O
+
+Result: Failed
+
+Perturbed sample: RUGBY UNION - CUTTITTA BACK mOR ITALY AFTER A YEAR .
+Labels: I-ORG I-ORG O I-ORG O O O O O O O
+-----------------------------------------
+Attacking sample: ROME 1996-12-06
+Labels: B-LOC O
+
+Result: Successful
+
+Perturbed sample: ROME 19D96-12-06
+Labels: B-ORG O
+-----------------------------------------
+Attacking sample: Italy recalled Marcello Cuttitta
+Labels: B-LOC O B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: Italy rUcalled Marcello Cuttitta
+Labels: B-LOC O B-PER I-PER
+-----------------------------------------
+Attacking sample: on Friday for their friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring following differences over selection .
+Labels: O O O O O O B-LOC O B-LOC O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: on Fiday for their friendly against Scotland at Murrayfield more than a year after the 30-year-olE wing announced he was retiring following differences over selectiotn .
+Labels: O O O O O O B-LOC O B-LOC O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Cuttitta , who trainer George Coste said was certain to play on Saturday week , was named in a 21-man squad lacking only two of the team beaten 54-21 by England at Twickenham last month .
+Labels: B-PER O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O B-LOC O O O
+
+Result: Failed
+
+Perturbed sample: Cuttitta , who trainer George Coste said was cretain to play on PSaturday week , was named in a 2l-man squad lacking only Ktwo of the teBam betaen 5A-21 by England at Twickenham last month .
+Labels: B-PER O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O I-LOC O O O
+-----------------------------------------
+Attacking sample: Stefano Bordon is out through illness and Coste said he had dropped back row Corrado Covi , who had been recalled for the England game after five years out of the national team .
+Labels: B-PER I-PER O O O O O B-PER O O O O O O B-PER I-PER O O O O O O O B-LOC O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Stefano Bordon is out through iqllness and Coste saiv he had dropped back ro Corrado Covi , who had been recalled for the England game after five years out of the nWtional tLeam .
+Labels: B-PER I-PER O O O O O B-PER O O O O O O B-PER I-PER O O O O O O O B-LOC O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Cuttitta announced his retirement after the 1995 World Cup , where he took issue with being dropped from the Italy side that faced England in the pool stages .
+Labels: B-PER O O O O O B-MISC I-MISC I-MISC O O O O O O O O O O B-LOC O O O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Cuttitta announced his retireOment after the 1995 World Cup , where he otok issuN with being dropped from the Italy side that faced England in the Qool stages .
+Labels: I-PER O O O O O O B-MISC I-MISC O O O O O O O O O O B-LOC O O O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Coste said he had approached the player two months ago about a comeback .
+Labels: B-PER O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Coste sMaid he had apprUached the plyer to months ago about a coemback .
+Labels: O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: " He ended the World Cup on the wrong note , " Coste said .
+Labels: O O O O B-MISC I-MISC O O O O O O B-PER O O
+
+Result: Successful
+
+Perturbed sample: " He ended the World Cup on the wronk note , " Coste sai .
+Labels: O O O O B-MISC I-MISC O O O O O O O O O
+-----------------------------------------
+Attacking sample: " I thought it would be useful to have him back and he said he would be available .
+Labels: O O O O O O O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: " I thought it would be useful to have him back and he said he would be available .
+Labels: O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: I think now is the right time for him to return . "
+Labels: O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: I think now is the right time for him to return . "
+Labels: O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Squad : Javier Pertile , Paolo Vaccari , Marcello Cuttitta , Ivan Francescato , Leandro Manteri , Diego Dominguez , Francesco Mazzariol , Alessandro Troncon , Orazio Arancio , Andrea Sgorlon , Massimo Giovanelli , Carlo Checchinato , Walter Cristofoletto , Franco Properzi Curti , Carlo Orlandi , Massimo Cuttitta , Giambatista Croci , Gianluca Guidi , Nicola Mazzucato , Alessandro Moscardi , Andrea Castellani .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: SPuad : Javier Pertile , Paolo Vaccari , Marcello Cuttitta , Ivan Francescato , Leandro Manteri , Diego Dominguez , Francesco Mazzariol , Alessandro Troncon , Orazio Arancio , Andrea Sgorlon , Massimo Giovanelli , Carlo Checchinato , Walter Cristofoletto , Franco Properzi Curti , Carlo Orlandi , Massimo Cuttitta , Giambatista Croci , Gianluca Guidi , Nicola Mazzucato , Alessandro Moscardi , Andrea Castellani .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER I-PER O B-PER I-PER O B-PER I-PER O I-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .
+Labels: O O O O O B-LOC O O B-LOC O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - LATE GOALS GIVE JAPAN WIN OVER SYRIA .
+Labels: O O O O O O O O I-LOC O
+-----------------------------------------
+Attacking sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: B-LOC O B-LOC I-LOC I-LOC O
+
+Result: Failed
+
+Perturbed sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: I-LOC O B-LOC I-LOC I-LOC O
+-----------------------------------------
+Attacking sample: Two goals in the last six minutes gave holders Japan an uninspiring 2-1 Asian Cup victory over Syria on Friday .
+Labels: O O O O O O O O O B-LOC O O O B-MISC I-MISC O O B-LOC O O O
+
+Result: Failed
+
+Perturbed sample: Two oals in the lyst six minuStes gaNe hoHders Japan an uninspriing 2-t1 Asian Cup viSctory over Syria on Frdday .
+Labels: O O O O O O O O O B-LOC O O O B-MISC I-MISC O O B-LOC O O O
+-----------------------------------------
+Attacking sample: Takuya Takagi headed the winner in the 88th minute of the group C game after goalkeeper Salem Bitar spoiled a mistake-free display by allowing the ball to slip under his body .
+Labels: B-PER I-PER O O O O O O O O O O O O O O B-PER I-PER O O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Takuya Takagi headed the inner in the 88th minute of the groujp C game after goakleeper Salem Bitar spoiled a mistake-free display by allowing the bill to slip under his bogdy .
+Labels: B-PER I-PER O O O O O O O O O O O O O O B-ORG I-ORG O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: It was the second Syrian defensive blunder in four minutes .
+Labels: O O O O B-MISC O O O O O O
+
+Result: Successful
+
+Perturbed sample: It was the seconP Syrian defeAnsive blunder in Four mniutes .
+Labels: O O O O I-MISC O O O O O O
+-----------------------------------------
+Attacking sample: Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal .
+Labels: O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-PER O O O
+
+Result: Successful
+
+Perturbed sample: Defenker Hassan Abbas rose to intercept a long blal into the areUa in the 84th imnute but only managed to divert it into the top corner of Bitar 's goLal .
+Labels: O I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O B-ORG O O O
+-----------------------------------------
+Attacking sample: Syria had taken the lead from their first serious attack in the seventh minute .
+Labels: B-LOC O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Syria had takeln the lead from their firGt sPerious atXack in the seventh mniute .
+Labels: B-LOC O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Nader Jokhadar headed a cross from the right by Ammar Awad into the top right corner of Kenichi Shimokawa 's goal .
+Labels: B-PER I-PER O O O O O O O B-PER I-PER O O O O O O B-PER I-PER O O O
+
+Result: Successful
+
+Perturbed sample: Nader Jokhadar headed a cross from the Pright by Ammar Awad into the top right corner of Kenichi Shimokawa 's gola .
+Labels: B-PER I-PER O O O O O O O B-PER I-PER O O O O O O I-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Japan then laid siege to the Syrian penalty area and had a goal disallowed for offside in the 16th minute .
+Labels: B-LOC O O O O O B-MISC O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan then laid siegUe to the Syrian penaltW xrea and had a goal Gisallowed for ofyfside in the Q16th minute .
+Labels: B-LOC O O O O O B-MISC O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: A minute later , Bitar produced a good double save , first from Kazuyoshi Miura 's header and then blocked a Takagi follow-up shot .
+Labels: O O O O B-PER O O O O O O O O B-PER I-PER O O O O O O B-PER O O O
+
+Result: Successful
+
+Perturbed sample: A minute later , Bitar produced a good dRuble save , firwt from Kazuyoshi Miura 's header and then bloked a Takagi qollow-up shot .
+Labels: O O O O B-ORG O O O O O O O O I-PER I-PER O O O O O O I-ORG O O O
+-----------------------------------------
+Attacking sample: Bitar saved well again from Miura in the 37th minute , parrying away his header from a corner .
+Labels: B-PER O O O O B-PER O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Bitar saved ewll again from Miura in the 37th minute , parrying awya his header from a Yorner .
+Labels: B-PER O O O O I-PER O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Japan started the second half brightly but Bitar denied them an equaliser when he dived to his right to save Naoki Soma 's low drive in the 53rd minute .
+Labels: B-LOC O O O O O O B-PER O O O O O O O O O O O O B-PER I-PER O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan started the second half brgihtly but Bitar deneid them an equalisr when he died to his Kright to isave Naoki Soma 's Uow driev in the 53rd minuge .
+Labels: B-LOC O O O O O O B-PER O O O O O O O O O O O O B-PER I-PER O O O O O O O O
+-----------------------------------------
+Attacking sample: Japan : 19 - Kenichi Shimokawa , 2 - Hiroshige Yanagimoto , 3 - Naoki Soma , 4 - Masami Ihara , 5 - Norio Omura , 6 - Motohiro Yamaguchi , 8 - Masakiyo Maezono ( 7 - Yasuto Honda 71 ) , 9 - Takuya Takagi , 10 - Hiroshi Nanami , 11 - Kazuyoshi Miura , 15 - Hiroaki Morishima ( 14 - Masayuki Okano 75 ) .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: Japan : A9 - Kenichi Shimokawa , 2 - Hiroshige Yanagimoto , 3 - Naoki Soma , 4 - Masami Ihara , 5 - Norio Omura , 6 - Motohiro Yamaguchi , 8 - Masakiyo Maezono ( 7 - Yasuto Honda 71 ) , 9 - Takuya Takagi , 10 - Hiroshi Nanami , u11 - Kazuyoshi Miura , 15 - Hiroaki Morishima ( T14 - Masayuki Okano 7 ) .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O O O I-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Syria : 24 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 10 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 17 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 16 - Nader Jokhadar .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Syria : 42 - Salem Bitar , 3 - Bachar Srour ; 4 - Hassan Abbas , 5 - Tarek Jabban , 6 - Ammar Awad ( 9 - Louay Taleb 69 ) , 8 - Nihad al-Boushi , 01 - Mohammed Afash , 12 - Ali Dib , 13 - Abdul Latif Helou ( 71 - Ammar Rihawiy 46 ) , 14 - Khaled Zaher ; 6 - Nader Jokhadar .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER I-PER O O O B-PER I-PER O O O O O B-PER I-PER O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: FREESTYLE SKIING-WORLD CUP MOGUL RESULTS .
+Labels: O B-MISC I-MISC O O O
+
+Result: Failed
+
+Perturbed sample: FREESTYEL SKIING-WORLD CUP MOGUL RESULTS .
+Labels: O O I-MISC O O O
+-----------------------------------------
+Attacking sample: TIGNES , France 1996-12-06
+Labels: B-LOC O B-LOC O
+
+Result: Failed
+
+Perturbed sample: TIGNES , France 1996-12-06
+Labels: B-LOC O B-LOC O
+-----------------------------------------
+Attacking sample: Results of the World Cup
+Labels: O O O B-MISC I-MISC
+
+Result: Failed
+
+Perturbed sample: Rseults of the World Cup
+Labels: O O O B-MISC I-MISC
+-----------------------------------------
+Attacking sample: freestyle skiing moguls competition on Friday :
+Labels: O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: freestyle skiing moguls competition on Friday :
+Labels: O O O O O O O
+-----------------------------------------
+Attacking sample: Men
+Labels: O
+
+Result: Skipped
+
+Perturbed sample: Men
+Labels: O
+-----------------------------------------
+Attacking sample: 1. Jesper Ronnback ( Sweden ) 25.76 points
+Labels: O B-PER I-PER O B-LOC O O O
+
+Result: Failed
+
+Perturbed sample: 1. Jesper Ronnback ( Sweden ) 25.d6 ponints
+Labels: O B-PER I-PER O B-LOC O O O
+-----------------------------------------
+Attacking sample: 2. Andrei Ivanov ( Russia ) 24.88
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 2. Andrei Ivanov ( Russia ) 24.8
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 3. Ryan Johnson ( Canada ) 24.57
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 3. Ryan Johnson ( Canada ) 24.5L7
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 4. Jean-Luc Brassard ( Canada ) 24.40
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 4. Jean-Luc Brassard ( Canada ) 24.4d
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 5. Korneilus Hole ( Norway ) 23.92
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 5. Korneilus Hole ( Norway ) 23.92
+Labels: O I-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 6. Jeremie Collomb-Patton ( France ) 23.87
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 6. Jeremie Collomb-Patton ( France ) 23.8G7
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 7. Jim Moran ( U.S. ) 23.25
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 7. Jim Moran ( U.S. ) 23.25
+Labels: O B-PER I-PER O I-LOC O O
+-----------------------------------------
+Attacking sample: 8. Dominick Gauthier ( Canada ) 22.73
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 8. Dominick Gauthier ( Canada ) 22.7M
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 9. Johann Gregoire ( France ) 22.58
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 9. Johann Gregoire ( France ) 22.5
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 10. Troy Benson ( U.S. ) 22.56
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 0. Troy Benson ( U.S. ) 22.6
+Labels: O B-PER I-PER O I-LOC O O
+-----------------------------------------
+Attacking sample: Women
+Labels: O
+
+Result: Skipped
+
+Perturbed sample: Women
+Labels: O
+-----------------------------------------
+Attacking sample: 1. Tatjana Mittermayer ( Germany ) 24.32
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 1. Tatjana Mittermayer ( Germany ) 24.32
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 2. Candice Gilg ( France ) 24.31
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 2. Candice Gilg ( France ) 24.31
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 3. Minna Karhu ( Finland ) 24.05
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 3. Minna Karhu ( Finland ) 24.p05
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 4. Tae Satoya ( Japan ) 23.75
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 4. Tae Satoya ( Japan ) 23.p5
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 5. Ann Battellle ( U.S. ) 23.56
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 5. Ann Battellle ( U.S. ) 3.U56
+Labels: O B-PER I-PER O I-LOC O O
+-----------------------------------------
+Attacking sample: 6. Donna Weinbrecht ( U.S. ) 22.48
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 6. Donna Weinbrecht ( U.S. ) 2K.E48
+Labels: O B-PER I-PER O I-LOC O O
+-----------------------------------------
+Attacking sample: 7. Liz McIntyre ( U.S. ) 22.00
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 7. Liz McIntyre ( U.S. ) 2.00
+Labels: O B-PER I-PER O I-LOC O O
+-----------------------------------------
+Attacking sample: 8. Elena Koroleva ( Russia ) 21.77
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 8. Elena Koroleva ( Russia ) 21.O7
+Labels: O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 9. Ljudmila Dymchenko ( Russia ) 21.59
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: 9. Ljudmila Dymchenko ( Russia ) 21.59
+Labels: O I-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: 10. Katleen Allais ( France ) 21.58
+Labels: O B-PER I-PER O B-LOC O O
+
+Result: Successful
+
+Perturbed sample: 1p. Katleen Allais ( France ) 21.58
+Labels: O I-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: SOCCER - ASIAN CUP GROUP C RESULTS .
+Labels: O O B-MISC I-MISC O O O O
+
+Result: Failed
+
+Perturbed sample: SOCER - ASIAN CUP GROUP C ERSULTS .
+Labels: O O I-MISC I-MISC O O O O
+-----------------------------------------
+Attacking sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: B-LOC O B-LOC I-LOC I-LOC O
+
+Result: Failed
+
+Perturbed sample: AL-AIN , United Arab Emirates 1996-12-06
+Labels: I-LOC O B-LOC I-LOC I-LOC O
+-----------------------------------------
+Attacking sample: Results of Asian Cup group C matches played on Friday :
+Labels: O O B-MISC I-MISC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: hResults of Asian Cup group C maWtches played on Fridpy :
+Labels: O O B-MISC I-MISC O O O O O O O
+-----------------------------------------
+Attacking sample: Japan 2 Syria 1 ( halftime 0-1 )
+Labels: B-LOC O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan 2 Syria 1 ( Balftime 0-1 )
+Labels: B-LOC O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Scorers :
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Scorers :
+Labels: O O
+-----------------------------------------
+Attacking sample: Japan - Hassan Abbas 84 own goal , Takuya Takagi 88 .
+Labels: B-LOC O B-PER I-PER O O O O B-PER I-PER O O
+
+Result: Failed
+
+Perturbed sample: Japan - Hassan Abbas 84 own goNal , Takuya Takagi 88 .
+Labels: B-LOC O B-PER I-PER O O O O B-PER I-PER O O
+-----------------------------------------
+Attacking sample: Syria - Nader Jokhadar 7
+Labels: B-LOC O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Syria - Nader Jokhadar 7
+Labels: B-LOC O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Attendance : 10,000 .
+Labels: O O O O
+
+Result: Skipped
+
+Perturbed sample: Attendance : 10,000 .
+Labels: O O O O
+-----------------------------------------
+Attacking sample: China 0 Uzbekistan 2 ( halftime 0-0 )
+Labels: B-LOC O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: China 0 Uzbekistan 2 ( halftimN 0-0 )
+Labels: B-LOC O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Scorers : Shkvyrin Igor 78 , Shatskikh Oleg 90
+Labels: O O B-PER I-PER O O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: ScoXers : Shkvyrin Igor 78 , Shatskikh Oleg 90
+Labels: O O B-PER I-PER O O I-PER I-PER O
+-----------------------------------------
+Attacking sample: Attendence : 3,000
+Labels: O O O
+
+Result: Skipped
+
+Perturbed sample: Attendence : 3,000
+Labels: O O O
+-----------------------------------------
+Attacking sample: Standings ( tabulate under played , won , drawn , lost , goals
+Labels: O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Standings ( tabulate under played , won , drawn , lost , goals
+Labels: O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: for , goals against , points ) :
+Labels: O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: for , goals against , points ) :
+Labels: O O O O O O O O
+-----------------------------------------
+Attacking sample: Uzbekistan 1 1 0 0 2 0 3
+Labels: B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Uzbekistan 1 1 0 0 2 0 3
+Labels: B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: Japan 1 1 0 0 2 1 3
+Labels: B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Japan 1 1 0 0 2 1 3
+Labels: B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: Syria 1 0 0 1 1 2 0
+Labels: B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Syria 1 0 0 1 1 2 0
+Labels: B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: China 1 0 0 1 0 2 0
+Labels: B-LOC O O O O O O O
+
+Result: Failed
+
+Perturbed sample: China 1 0 0 1 0 2 0
+Labels: B-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .
+Labels: O O B-LOC O B-LOC I-LOC O O O
+
+Result: Failed
+
+Perturbed sample: CRICKET - PAKISTAN V NEW ZEALAND ONE-DAY SCOREBOARD .
+Labels: O O I-LOC O B-LOC I-LOC O O O
+-----------------------------------------
+Attacking sample: [ CORRECTED 14:06 GMT ]
+Labels: O O O B-MISC O
+
+Result: Failed
+
+Perturbed sample: [ CORRETED 41:0h6 GMT ]
+Labels: O O O B-MISC O
+-----------------------------------------
+Attacking sample: SIALKOT , Pakistan 1996-12-06
+Labels: B-LOC O B-LOC O
+
+Result: Failed
+
+Perturbed sample: SIALKOT , Pakistan 1996-12-06
+Labels: I-LOC O B-LOC O
+-----------------------------------------
+Attacking sample: Scoreboard in the second
+Labels: O O O O
+
+Result: Skipped
+
+Perturbed sample: Scoreboard in the second
+Labels: O O O O
+-----------------------------------------
+Attacking sample: one-day cricket international between Pakistan and New Zealand
+Labels: O O O O B-LOC O B-LOC I-LOC
+
+Result: Failed
+
+Perturbed sample: one-day crciket internatUional between Pakistan and New Zealand
+Labels: O O O O B-LOC O B-LOC I-LOC
+-----------------------------------------
+Attacking sample: on Friday :
+Labels: O O O
+
+Result: Skipped
+
+Perturbed sample: on Friday :
+Labels: O O O
+-----------------------------------------
+Attacking sample: Pakistan
+Labels: B-LOC
+
+Result: Failed
+
+Perturbed sample: Pakistan
+Labels: B-LOC
+-----------------------------------------
+Attacking sample: Saeed Anwar run out 91 ( corrects from 90 )
+Labels: B-PER I-PER O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Saeed Anwar ruGn out F91 ( Ucorrects from 9c0 )
+Labels: B-PER I-PER O O O O O O O O
+-----------------------------------------
+Attacking sample: Zahoor Elahi b Cairns 86 ( corrects from 87 )
+Labels: B-PER I-PER O B-PER O O O O O O
+
+Result: Successful
+
+Perturbed sample: Zahoor Elahi b Cairns 86 ( crorects from E7 )
+Labels: B-PER I-PER O O O O O O O O
+-----------------------------------------
+Attacking sample: Ijaz Ahmad c Spearman b Vaughan 59
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Ijaz Ahmad c Spearman b Vaughan G59
+Labels: B-PER I-PER O I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Inzamamul Haq st Germon b Astle 2
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Inzamamul Haq sB Germon b Astle 2
+Labels: B-PER I-PER O I-PER O I-PER O
+-----------------------------------------
+Attacking sample: Wasim Akram b Harris 4
+Labels: B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Wasim Akram b Harris 4
+Labels: B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Shahid Afridi b Harris 2
+Labels: B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Shahid Afridi b Harris 2
+Labels: B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Moin Khan c Astle b Harris 1
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Moin Khan c Astle b Harris 1
+Labels: B-PER I-PER O I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Waqar Younis st Germon b Harris 0
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Successful
+
+Perturbed sample: Waqar Younis svt Germon b Harris 0
+Labels: I-PER I-PER O I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Saqlain Mushtaq b Harris 2
+Labels: B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: Saqlain Mushtaq b Harris 2
+Labels: B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: Mushtaq Ahmad not out 5
+Labels: B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: Mushtaq Ahmad not out 5
+Labels: B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Salim Malik not out 1
+Labels: B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: Salim Malik not out 1
+Labels: B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Extras ( lb-8 nb-2 w-14 ) 24
+Labels: O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Extras ( lb-8 nb-2 w-14 ) 24
+Labels: O O O O O O O
+-----------------------------------------
+Attacking sample: Total ( for 9 wickets in 47 overs ) 277
+Labels: O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Total ( for 9 wickets in 47 overs ) 277
+Labels: O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Fall of wicket : 1-177 ( corrects from 1-178 ) 2-225 3-240 4-247 5-252 6-260 7-261 8-269 9-276
+Labels: O O O O O O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Fall of wicket : 1-177 ( corrects from 1-178 ) 2-225 3-240 4-247 5-252 6-260 7-261 8-269 9-276
+Labels: O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Bowling : Doull 8-1-60-0 ( w-3 ) , Kennedy 3-0-24-0 ( w-7 nb-1 ) ,
+Labels: O O B-PER O O O O O B-PER O O O O O O
+
+Result: Successful
+
+Perturbed sample: Bodwling : Doull 8-1-60-0 ( w-3 ) , Kennedy 3-0-24-0 ( w-7 nb-1 ) ,
+Labels: O O I-PER O O O O O B-PER O O O O O O
+-----------------------------------------
+Attacking sample: Cairns 8-1-35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,
+Labels: B-PER O O O O O B-PER O O B-PER O O O O O
+
+Result: Successful
+
+Perturbed sample: Cairns 81--35-1 ( w-2 ) , Vaughan 9-1-55-1 , Harris 10-0-42-5 ( w-1 ) ,
+Labels: B-ORG O O O O O B-PER O O B-PER O O O O O
+-----------------------------------------
+Attacking sample: Astle 9-0-53-1 ( w-1 nb-1 )
+Labels: B-PER O O O O O
+
+Result: Skipped
+
+Perturbed sample: Astle 9-0-53-1 ( w-1 nb-1 )
+Labels: O O O O O O
+-----------------------------------------
+Attacking sample: New Zealand innings
+Labels: B-LOC I-LOC O
+
+Result: Failed
+
+Perturbed sample: New Zealand Uinnings
+Labels: B-LOC I-LOC O
+-----------------------------------------
+Attacking sample: B. Young c Moin Khan b Waqar 5
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: B. Young c Moin Khan b Waqar 5
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: C. Spearman c Moin Khan b Wasim 0
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: C. Spearman c Moin Khan b Wasim 0
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: A. Parore c Ijaz Ahmad b Saqlain 37
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: A. Parore c Ijaz Ahmad b Saqlain o37
+Labels: B-PER I-PER O I-PER I-PER O I-PER O
+-----------------------------------------
+Attacking sample: S. Fleming c and b Afridi 88
+Labels: B-PER I-PER O O O B-PER O
+
+Result: Failed
+
+Perturbed sample: S. Fleming c and b Afridi o88
+Labels: B-PER I-PER O O O B-PER O
+-----------------------------------------
+Attacking sample: C. Cairns b Saqlain 10
+Labels: B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: C. Cairns b Saqlain 1N0
+Labels: B-PER I-PER O I-PER O
+-----------------------------------------
+Attacking sample: N. Astle c Ijaz Ahmad b Salim Malik 20
+Labels: B-PER I-PER O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: N. Astle c Ijaz Ahmad b Salim Malik 0
+Labels: B-PER I-PER O I-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: C. Harris lbw b Wasim 22
+Labels: B-PER I-PER O O B-PER O
+
+Result: Failed
+
+Perturbed sample: C. Harris blw b Wasim 2
+Labels: B-PER I-PER O O B-PER O
+-----------------------------------------
+Attacking sample: L. Germon lbw b Afridi 2
+Labels: B-PER I-PER O O B-PER O
+
+Result: Failed
+
+Perturbed sample: L. Germon lbw b Afridi 2
+Labels: B-PER I-PER O O I-PER O
+-----------------------------------------
+Attacking sample: J. Vaughan c Moin Khan b Wasim 13
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: J. Vaughan c Moin Khan b Wasim 1
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: S. Doull c subs ( M. Wasim ) b Waqar 1
+Labels: B-PER I-PER O O O B-PER I-PER O O B-PER O
+
+Result: Failed
+
+Perturbed sample: S. Doull c seubs ( M. Wasim ) b Waqar 1
+Labels: B-PER I-PER O O O B-PER I-PER O O B-PER O
+-----------------------------------------
+Attacking sample: R. Kennedy not out 7
+Labels: B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: R. Kennedy not out 7
+Labels: B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Extras ( b-9 lb-3 w-12 nb-2 ) 26
+Labels: O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Extras ( b-9 lb-3 w-12 nb-2 ) 26
+Labels: O O O O O O O O
+-----------------------------------------
+Attacking sample: Total ( all out in 42.1 overs ) 231
+Labels: O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Total ( all out in 42.1 overs ) 231
+Labels: O O O O O O O O O
+-----------------------------------------
+Attacking sample: Fall of wickets : 1-3 2-7 3-125 4-146 5-170 6-190 7-195
+Labels: O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: Fall of wickets : 1-3 2-7 3-125 4-146 5-170 6-190 7-195
+Labels: O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: 8-213 9-216 .
+Labels: O O O
+
+Result: Skipped
+
+Perturbed sample: 8-213 9-216 .
+Labels: O O O
+-----------------------------------------
+Attacking sample: Bowling : Wasim Akram 8.1-0-43-3 ( 9w , 1nb ) , Waqar Younis
+Labels: O O B-PER I-PER O O O O O O O B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: BoJling : Wasim Akram 8.M1-0-43-3 ( Dw , 1b ) , Waqar Younis
+Labels: O O B-PER I-PER O O O O O O O B-PER I-PER
+-----------------------------------------
+Attacking sample: 6-0-32-2 ( 2w , 1nb ) , Saqlain Mushtaq 8-0-54-2 , Mushtaq Ahmad
+Labels: O O O O O O O B-PER I-PER O O B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: 6-0-3-2 ( 2w , n1b ) , Saqlain Mushtaq 8-0-54-2 , Mushtaq Ahmad
+Labels: O O O O O O O B-PER I-PER O O B-PER I-PER
+-----------------------------------------
+Attacking sample: 10-0-42-0 ( 1w ) , Shahid Afridi 7-0-40-2 , Salim Malik 2.5-0-8-1 ,
+Labels: O O O O O B-PER I-PER O O B-PER I-PER O O
+
+Result: Failed
+
+Perturbed sample: 10-0-4u-0 ( 1n ) , Shahid Afridi 7-0-4W0-2 , Salim Malik 2.5-0-8-1 ,
+Labels: O O O O O B-PER I-PER O O B-PER I-PER O O
+-----------------------------------------
+Attacking sample: Ijaz Ahmad 0.1-0-0-0 .
+Labels: B-PER I-PER O O
+
+Result: Failed
+
+Perturbed sample: Ijaz Ahmad 0.1-0-c-0 .
+Labels: B-PER I-PER O O
+-----------------------------------------
+Attacking sample: Result : Pakistan won by 46 runs .
+Labels: O O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: eRsult : Pakistan won by G6 rumns .
+Labels: O O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Third one-day match : December 8 , in Karachi .
+Labels: O O O O O O O O B-LOC O
+
+Result: Failed
+
+Perturbed sample: TIhird one-dEy Patch : Decembur 8 , in Karachi .
+Labels: O O O O O O O O B-LOC O
+-----------------------------------------
+Attacking sample: SOCCER - ENGLISH F.A. CUP SECOND ROUND RESULT .
+Labels: O O B-MISC I-MISC I-MISC O O O O
+
+Result: Failed
+
+Perturbed sample: SOCCER - ENGLISH F.A. CUP RECOND ROUND RLESULT .
+Labels: O O B-MISC I-MISC I-MISC O O O O
+-----------------------------------------
+Attacking sample: LONDON 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: LONDON 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Result of an English F.A. Challenge
+Labels: O O O B-MISC I-MISC I-MISC
+Could not attack sample: list index out of range
+
+Result: Failed
+
+Perturbed sample: Result of an English F.A. Challenge
+Labels: O O O B-MISC I-MISC I-MISC
+-----------------------------------------
+Attacking sample: Cup second round match on Friday :
+Labels: B-MISC O O O O O O
+
+Result: Successful
+
+Perturbed sample: Cup seocnd roudn macth on Friady :
+Labels: O O O O O O O
+-----------------------------------------
+Attacking sample: Plymouth 4 Exeter 1
+Labels: B-ORG O B-ORG O
+
+Result: Failed
+
+Perturbed sample: Plymouth 4 Exeter 1
+Labels: B-ORG O B-ORG O
+-----------------------------------------
+Attacking sample: SOCCER - BLINKER BAN LIFTED .
+Labels: O O B-PER O O O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - BLINKER BAN LIFTED .
+Labels: O O O O O O
+-----------------------------------------
+Attacking sample: LONDON 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: LONDON 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Dutch forward Reggie Blinker had his indefinite suspension lifted by FIFA on Friday and was set to make his Sheffield Wednesday comeback against Liverpool on Saturday .
+Labels: B-MISC O B-PER I-PER O O O O O O B-ORG O O O O O O O O B-ORG I-ORG O O B-ORG O O O
+
+Result: Failed
+
+Perturbed sample: Dutch forware Reggie Blinker had his inedfinite suspension ifted by FIFA on Frdiay and was sjet to make his Sheffield Wednesday comebaEck against Liverpool on Saturay .
+Labels: B-MISC O B-PER I-PER O O O O O O B-ORG O O O O O O O O B-ORG I-ORG O O B-ORG O O O
+-----------------------------------------
+Attacking sample: Blinker missed his club 's last two games after FIFA slapped a worldwide ban on him for appearing to sign contracts for both Wednesday and Udinese while he was playing for Feyenoord .
+Labels: B-PER O O O O O O O O B-ORG O O O O O O O O O O O O O B-ORG O B-ORG O O O O O B-ORG O
+
+Result: Successful
+
+Perturbed sample: Blinker misseZ his club 's last two games after FIFA slapped a worldwide ban on him for apfearing to sign conteracts for both Wednesday and Udinese while he was laying for Feyenoord .
+Labels: O O O O O O O O O B-ORG O O O O O O O O O O O O O O O B-LOC O O O O O I-ORG O
+-----------------------------------------
+Attacking sample: FIFA 's players ' status committee , meeting in Barcelona , decided that although the Udinese document was basically valid , it could not be legally protected .
+Labels: B-ORG O O O O O O O O B-LOC O O O O O B-ORG O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: FIFA 's players ' status committe , meeting in Barcelona , hecided that although the Udinese ocument was basically vali , it couold not be legatly prottcted .
+Labels: B-ORG O O O O O O O O B-ORG O O O O O I-MISC O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: The committee said the Italian club had violated regulations by failing to inform Feyenoord , with whom the player was under contract .
+Labels: O O O O B-MISC O O O O O O O O B-ORG O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: ThU committee said the Italian Alub had violated regulatinos by failing to infrm Feyenoord , with whom the plaEer was under cpntract .
+Labels: O O O O B-MISC O O O O O O O O I-ORG O O O O O O O O O
+-----------------------------------------
+Attacking sample: Blinker was fined 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .
+Labels: B-PER O O O B-MISC O O O O O O O O O O B-MISC O O O O O O B-ORG O
+
+Result: Successful
+
+Perturbed sample: Blinker was fines 75,000 Swiss francs ( $ 57,600 ) for failing to inform the Engllsh club of his previous commitment to Udinese .
+Labels: O O O O B-MISC O O O O O O O O O O I-ORG O O O O O O I-ORG O
+-----------------------------------------
+Attacking sample: SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .
+Labels: O O B-ORG O B-PER O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - LEEDS ' BOWYER FINED FOR PART IN FAST-FOOD FRACAS .
+Labels: O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: LONDON 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: LONDON 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Leeds ' England under-21 striker Lee Bowyer was fined 4,500 pounds ( $ 7,400 ) on Friday for hurling chairs at restaurant staff during a disturbance at a McDonald 's fast-food restaurant .
+Labels: B-ORG O B-LOC O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG O O O
+
+Result: Failed
+
+Perturbed sample: Leeds ' England under-21 striker Lee Bowyer was fined 4,50 pounds ( $ 7,00 ) on Fiday for hurling chais at restarant staff during a disturbance at a McDonald 's fast-food restaurant .
+Labels: B-ORG O B-LOC O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG O O O
+-----------------------------------------
+Attacking sample: Bowyer , 19 , who was caught in the act by security cameras , pleaded guilty to a charge of affray at a court in London .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O
+
+Result: Failed
+
+Perturbed sample: Bowyer , 19 , who was caught in the at by security cameraL , pleaedd giulty to a charge of affmay at a courB in London .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O
+-----------------------------------------
+Attacking sample: He was fined and ordered to pay a total of 175 pounds to two members of staff injured in the fracas in an east London restaurant in October .
+Labels: O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O O
+
+Result: Failed
+
+Perturbed sample: QHe was finBd and ordered to pay a total of 175 pounds to two emmbers of staff injured in the frSacas in an eats London restaurant in Octobexr .
+Labels: O O O O O O O O O O O O O O O O O O O O O O O O B-LOC O O O O
+-----------------------------------------
+Attacking sample: Leeds had already fined Bowyer 4,000 pounds ( $ 6,600 ) and warned him a repeat of his criminal behaviour could cost him his place in the side .
+Labels: B-ORG O O O B-PER O O O O O O O O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Leeds had already fiend Bowyer 4,000 pounds ( $ 6,600 ) and warned him a depeat of his criminal behaviour coulCd cot him his Nlace in the sidZ .
+Labels: B-ORG O O O B-PER O O O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Bowyer , who moved to the Yorkshire club in August for 3.5 million pounds ( $ 5.8 million ) , was expected to play against Middlesbrough on Saturday .
+Labels: B-PER O O O O O B-LOC O O O O O O O O O O O O O O O O O O B-ORG O O O
+
+Result: Failed
+
+Perturbed sample: Bowyer , who moved to the Yorkshire club in Auguss for 3.5 milloin pounds ( $ 5.8 million ) , was Hexpected to lay against Middlesbrough on Saturady .
+Labels: B-PER O O O O O B-ORG O O O O O O O O O O O O O O O O O O B-ORG O O O
+-----------------------------------------
+Attacking sample: BASKETBALL - EUROLEAGUE STANDINGS .
+Labels: O O B-MISC O O
+
+Result: Skipped
+
+Perturbed sample: BASKETBALL - EUROLEAGUE STANDINGS .
+Labels: O O O O O
+-----------------------------------------
+Attacking sample: LONDON 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: LONDON 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Standings in the men 's EuroLeague
+Labels: O O O O O B-MISC
+
+Result: Skipped
+
+Perturbed sample: Standings in the men 's EuroLeague
+Labels: O O O O O I-MISC
+-----------------------------------------
+Attacking sample: basketball championship after Thursday 's matches ( tabulate under
+Labels: O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: basketball championship after Thursday 's matches ( tabulate under
+Labels: O O O O O O O O O
+-----------------------------------------
+Attacking sample: played , won , lost , points ) :
+Labels: O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: played , won , lost , points ) :
+Labels: O O O O O O O O O
+-----------------------------------------
+Attacking sample: Group A
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Group A
+Labels: O O
+-----------------------------------------
+Attacking sample: CSKA Moscow ( Russia 9 6 3 15
+Labels: B-ORG I-ORG O B-LOC O O O O
+
+Result: Failed
+
+Perturbed sample: CSKA Moscow ( Russia 9 6 3 B15
+Labels: B-ORG I-ORG O B-LOC O O O O
+-----------------------------------------
+Attacking sample: Stefanel Milan ( Italy ) 9 6 3 15
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Stefanel Milan ( Italy ) 9 6 3 1
+Labels: B-PER I-PER O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Maccabi Tel Aviv ( Israel ) 9 5 4 14
+Labels: B-ORG I-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Maccabi Tel Aviv ( Israel ) 9 5 4 F4
+Labels: B-ORG I-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Ulker Spor ( Turkey ) 9 4 5 13
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Ulker Spor ( Turkey ) 9 4 5 1E
+Labels: I-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Limoges ( France ) 9 3 6 12
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Limoges ( France ) 9 3 6 1
+Labels: I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Panionios ( Greece ) 9 3 6 12
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Panionios ( Greece ) 9 3 6 1P
+Labels: I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Group B
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Group B
+Labels: O O
+-----------------------------------------
+Attacking sample: Teamsystem Bologna ( Italy ) 9 7 2 16
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Teamsystem Bologna ( Italy ) 9 7 2 1
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Olympiakos ( Greece ) 9 5 4 14
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Olympiakos ( Greece ) 9 5 4 1
+Labels: B-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Cibona Zagreb ( Croatia ) 9 5 4 14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Cibona Zagreb ( Croatia ) 9 5 4 S4
+Labels: I-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Alba Berlin ( Germany ) 9 5 4 14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Alba Berlin ( Germany ) 9 5 4 J14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Estudiantes Madrid ( Spain ) 9 5 4 14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Estudiantes Madrid ( Spain ) 9 5 4 1Z4
+Labels: I-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Charleroi ( Belgium ) 9 0 9 9
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Charleroi ( Belgium ) 9 0 9 9
+Labels: I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Group C
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Group C
+Labels: O O
+-----------------------------------------
+Attacking sample: Panathinaikos ( Greece ) 9 7 2 16
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Panathinaikos ( Greece ) 9 7 2 L16
+Labels: I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Ljubljana ( Slovenia ) 9 6 3 15
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Ljubljana ( Slovenia ) 9 6 3 A15
+Labels: B-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Villeurbanne ( France ) 9 6 3 15
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Villeurbanne ( France ) 9 6 3 5
+Labels: I-PER O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Barcelona ( Spain ) 9 4 5 13
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Barcelona ( Spain ) 9 4 5 1J3
+Labels: B-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Split ( Croatia ) 9 4 5 13
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Split ( Croatia ) 9 4 5 J13
+Labels: B-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Bayer Leverkusen ( Germany ) 9 0 9 9
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Bayer Leverkusen ( Germany ) 9 0 9 9
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Group D
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Group D
+Labels: O O
+-----------------------------------------
+Attacking sample: Efes Pilsen ( Turkey ) 9 7 2 16
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Efes Pilsen ( Turkey ) 9 7 2 T6
+Labels: B-PER I-PER O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Pau-Orthez ( France ) 9 5 4 14
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Pau-Orthez ( France ) 9 5 4 1N
+Labels: I-PER O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Partizan Belgrade ( Yugoslavia ) 9 5 4 14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Partizan Belgrade ( Yugoslavia ) 9 5 4 U14
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Kinder Bologna ( Italy ) 9 4 5 13
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Kinder Bologna ( Italy ) 9 4 5 F3
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Sevilla ( Spain ) 9 4 5 13
+Labels: B-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Sevilla ( Spain ) 9 4 5 O13
+Labels: I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Dynamo Moscow ( Russia ) 9 2 7 11
+Labels: B-ORG I-ORG O B-LOC O O O O O
+
+Result: Failed
+
+Perturbed sample: Dynamo Moscow ( Russia ) 9 2 7 1U
+Labels: B-ORG I-ORG O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .
+Labels: B-ORG I-ORG O B-PER O O B-PER O O
+
+Result: Failed
+
+Perturbed sample: RUGBY UNION - LITTLE TO MISS CAMPESE FAREWELL .
+Labels: I-ORG I-ORG O I-ORG O O O O O
+-----------------------------------------
+Attacking sample: Robert Kitson
+Labels: B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: Robert Kitson
+Labels: B-PER I-PER
+-----------------------------------------
+Attacking sample: LONDON 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: LONDON 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Centre Jason Little will miss Australia 's end-of-tour fixture against the Barbarians at Twickenham on Saturday .
+Labels: O B-PER I-PER O O B-LOC O O O O O B-ORG O B-LOC O O O
+
+Result: Successful
+
+Perturbed sample: Cenre Jason Little will miss Australia 's end-oft-our kixture against the Barbarians at Twickenham on Saturady .
+Labels: O I-PER I-PER O O B-LOC O O O O O I-MISC O I-LOC O O O
+-----------------------------------------
+Attacking sample: Little has opted not to risk aggravating the knee injury which ruled him out of a large chunk of the tour and is replaced by fellow Queenslander Daniel Herbert .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O O O O O B-MISC B-PER I-PER O
+
+Result: Successful
+
+Perturbed sample: Little has poted not to risk aggravating the knee injury which ruled him out of a large chunk of the tCur and is replaced by eellow Queenslander Daniel Herbert .
+Labels: O O O O O O O O O O O O O O O O O O O O O O O O O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Owen Finegan has recovered from the knocks he took in last weekend 's test against Wales and retains his place in the back-row ahead of Daniel Manu .
+Labels: B-PER I-PER O O O O O O O O O O O O O B-LOC O O O O O O O O O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Owen Finegan has rSecovered from the knocks he tok in last weekLend 's tset against Wales and retaiuns his lpace in the backrow Zahead of Daniel Manu .
+Labels: B-PER I-PER O O O O O O O O O O O O O B-LOC O O O O O O O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: The Wallabies have their sights set on a 13th successive victory to end their European tour with a 100 percent record but also want to turn on the style and provide David Campese with a fitting send-off in his final match in Australian colours .
+Labels: O B-ORG O O O O O O O O O O O O B-MISC O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O O O O B-MISC O O
+
+Result: Successful
+
+Perturbed sample: The Wallabies have their sights set on a 13th successive victroy to end their European tour with a 100 percent record but also want to turn on the style and provide David Campese with a fitting send-off in his final match in Australian colours .
+Labels: O I-MISC O O O O O O O O O O O O B-MISC O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O O O O B-MISC O O
+-----------------------------------------
+Attacking sample: The Wallabies currently have no plans to make any special presentation to the 34-year-old winger but a full house of 75,000 spectators will still gather in the hope of witnessing one last moment of magic .
+Labels: O B-ORG O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: The Wallabies currently have no plans to make any special presentation to the 34-year-old winger but a full house of 75,000 spectators will still gather in the hope of witnessing one last moment of magic .
+Labels: O B-MISC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Campese will be up against a familiar foe in the shape of Barbarians captain Rob Andrew , the man who kicked Australia to defeat with a last-ditch drop-goal in the World Cup quarter-final in Cape Town .
+Labels: B-PER O O O O O O O O O O O B-ORG O B-PER I-PER O O O O O B-LOC O O O O O O O O B-MISC I-MISC O O B-LOC I-LOC O
+
+Result: Successful
+
+Perturbed sample: Campese will be up against a familiar ofe in the shape of Barbarians Haptain Rob Andrew , the man who kicked Australia to defeat with a last-ditch drop-goal in the World Cup quarter-final in Cape Town .
+Labels: O O O O O O O O O O O O O O B-PER I-PER O O O O O B-LOC O O O O O O O O B-MISC I-MISC O O B-LOC I-LOC O
+-----------------------------------------
+Attacking sample: " Campo has a massive following in this country and has had the public with him ever since he first played here in 1984 , " said Andrew , also likely to be making his final Twickenham appearance .
+Labels: O B-PER O O O O O O O O O O O O O O O O O O O O O O O O O B-PER O O O O O O O O B-LOC O O
+
+Result: Successful
+
+Perturbed sample: " Campo has a massive following in this coutnry and has had the pulic with him ever since he first plyaed here in 1984 , " siad Andrew , aJso likly to be making his final Twickenham appearance .
+Labels: O B-PER O O O O O O O O O O O O O O O O O O O O O O O O O I-PER O O O O O O O O I-LOC O O
+-----------------------------------------
+Attacking sample: On tour , Australia have won all four tests against Italy , Scotland , Ireland and Wales , and scored 414 points at an average of almost 35 points a game .
+Labels: O O O B-LOC O O O O O O B-LOC O B-LOC O B-LOC O B-LOC O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Ozn touZ , Australia have won all four tePsts against Italy , Scotland , Ireland and Wales , and scored 414 moints at an average of Yalmost 35 points a game .
+Labels: O O O B-LOC O O O O O O B-LOC O B-LOC O B-LOC O B-LOC O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: League duties restricted the Barbarians ' selectorial options but they still boast 13 internationals including England full-back Tim Stimpson and recalled wing Tony Underwood , plus All Black forwards Ian Jones and Norm Hewitt .
+Labels: O O O O B-ORG O O O O O O O O O O B-LOC O B-PER I-PER O O O B-PER I-PER O O B-ORG I-ORG O B-PER I-PER O B-PER I-PER O
+
+Result: Successful
+
+Perturbed sample: League vuties restricted the Barbarians ' selectorial options but they still boast 13 internationals includiCng England full-back Tim Stimpson and recalled iwng Tony Underwood , plus All Black forwards Ian Jones and Norm Hewitt .
+Labels: O O O O I-ORG O O O O O O O O O O B-LOC O B-PER I-PER O O O B-PER I-PER O O B-ORG I-MISC O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Teams :
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Teams :
+Labels: O O
+-----------------------------------------
+Attacking sample: Barbarians - 15 - Tim Stimpson ( England ) ; 14 - Nigel Walker ( Wales ) , 13 - Allan Bateman ( Wales ) , 12 - Gregor Townsend ( Scotland ) , 11 - Tony Underwood ( England ) ; 10 - Rob Andrew ( England ) , 9 - Rob Howley ( Wales ) ; 8 - Scott Quinnell ( Wales ) , 7 - Neil Back ( England ) , 6 - Dale McIntosh ( Pontypridd ) , 5 - Ian Jones ( New Zealand ) , 4 - Craig Quinnell ( Wales ) , 3 - Darren Garforth ( Leicester ) , 2 - Norm Hewitt ( New Zealand ) , 1 - Nick Popplewell ( Ireland ) .
+Labels: B-ORG O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC I-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC I-LOC O O O O B-PER I-PER O B-LOC O O
+
+Result: Failed
+
+Perturbed sample: Barbarians - 15 - Tim Stimpson ( England ) ; 14 - Nigel Walker ( Wales ) , 13 - Allan Bateman ( Wales ) , 12 - Gregor Townsend ( Scotland ) , 1 - Tony Underwood ( England ) ; 10 - Rob Andrew ( England ) , 9 - Rob Howley ( Wales ) ; 8 - Scott Quinnell ( Wales ) , 7 - Neil Back ( England ) , 6 - Dale McIntosh ( Pontypridd ) , 5 - Ian Jones ( New Zealand ) , 4 - Craig Quinnell ( Wales ) , 3 - Darren Garforth ( Leicester ) , 2 - Norm Hewitt ( New Zealand ) , 1 - Nick Popplewell ( Ireland ) .
+Labels: I-ORG O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O I-LOC O O O O B-PER I-PER O B-LOC I-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC I-LOC O O O O B-PER I-PER O B-LOC O O
+-----------------------------------------
+Attacking sample: Australia - 15 - Matthew Burke ; 14 - Joe Roff , 13 - Daniel Herbert , 12 - Tim Horan ( captain ) , 11 - David Campese ; 10 - Pat Howard , 9 - Sam Payne ; 8 - Michael Brial , 7 - David Wilson , 6 - Owen Finegan , 5 - David Giffin , 4 - Tim Gavin , 3 - Andrew Blades , 2 - Marco Caputo , 1 - Dan Crowley .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Australia - 1L5 - Matthew Burke ; 14 - Joe Roff , 1b3 - Daniel Herbert , 12 - Tim Horan ( captani ) , 11 - David Campese ; g0 - Pat Howard , 9 - Sam Payne ; 8 - Michael Brial , 7 - David Wilson , 6 - Owen Finegan , 5 - David Giffin , 4 - Tim Gavin , 3 - Andrew Blades , 2 - Marco Caputo , 1 - Dan Crowley .
+Labels: B-LOC O O O B-PER I-PER O O O B-PER O O O O B-PER I-PER O O O B-PER I-PER O O O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: GOLF - ZIMBABWE OPEN SECOND ROUND SCORES .
+Labels: O O B-MISC I-MISC O O O O
+
+Result: Failed
+
+Perturbed sample: GOLF - ZIMBABWE OPEN SECOND ROUND SOCRES .
+Labels: O O I-LOC I-MISC O O O O
+-----------------------------------------
+Attacking sample: HARARE 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: HARARE 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Leading second round scores in the Zimbabwe Open at the par-72 Chapman Golf Club on Friday ( South African unless stated ) : 132 Des Terblanche 65 67 133 Mark McNulty ( Zimbabwe ) 72 61 134 Steve van Vuuren 65 69 136 Nick Price ( Zimbabwe ) 68 68 , Justin Hobday 71 65 ,
+Labels: O O O O O O B-MISC I-MISC O O O B-LOC I-LOC I-LOC O O O B-MISC I-MISC O O O O O B-PER I-PER O O O B-PER I-PER O B-LOC O O O O B-PER I-PER I-PER O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: Leadnig second rMund scores in the Zimbabwe Open at the par-7 Chapman Golf Club on AFriday ( South African unless stanted ) : 132 Des Terblanche 56 67 133 Mark McNulty ( Zimbabwe ) 72 61 1u34 Steve van Vuuren 6 9 136 Nick Price ( Zimbabwe ) 6V 8 , Justin Hobday 17 65 ,
+Labels: O O O O O O B-MISC I-MISC O O O B-ORG I-ORG I-ORG O O O B-MISC I-MISC O O O O O B-PER I-PER O O O B-PER I-PER O B-LOC O O O O B-PER I-PER I-PER O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Andrew Pitts ( U.S. ) 69 67 138 Mark Cayeux ( Zimbabwe ) 69 69 , Mark Murless 71 67 139 Hennie Swart 75 64 , Andrew Park 72 67 140 Schalk van der Merwe ( Namibia ) 67 73 , Desvonde
+Labels: B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER I-PER I-PER O B-LOC O O O O B-PER
+
+Result: Successful
+
+Perturbed sample: Andrew Pitts ( U.S. ) 69 67 m138 Mark Cayeux ( Zimbabwe ) R9 69 , Mark Murless U1 67 139 Hennie Swart 75 64 , Andrew Park 72 6b7 1R0 Schalk van der Merwe ( Namibia ) 67 73 , Desvonde
+Labels: B-PER I-PER O I-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER O O O O B-PER I-PER O O O B-PER I-PER O O O I-PER I-PER I-PER I-PER O B-LOC O O O O B-PER
+-----------------------------------------
+Attacking sample: Botes 72 68 , Greg Reid 72 68 , Clinton Whitelaw 70
+Labels: B-PER O O O B-PER I-PER O O O B-PER I-PER O
+
+Result: Successful
+
+Perturbed sample: Botes 72 68 , Greg Reid 72 6p , Clinton Whitelaw 70
+Labels: B-ORG O O O B-PER I-PER O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: 70 , Brett Liddle 75 65 , Hugh Baiocchi 73 67 141 Adilson da Silva ( Brazil ) 72 69 , Sammy Daniels 73
+Labels: O O B-PER I-PER O O O B-PER I-PER O O O B-PER I-PER I-PER O B-LOC O O O O B-PER I-PER O
+
+Result: Successful
+
+Perturbed sample: 70 , Brett Liddle 75 65 , Hugh Baiocchi 73 67 w141 Adilson da Silva ( Brazil ) 72 69 , Sammy Daniels 73
+Labels: O O B-PER I-PER O O O B-PER I-PER O O O I-PER I-PER I-PER O B-LOC O O O O B-PER I-PER O
+-----------------------------------------
+Attacking sample: 68 , Trevor Dodds ( Namibia ) 72 69 142 Don Robertson ( U.S. ) 73 69 , Dion Fourie 69 73 ,
+Labels: O O B-PER I-PER O B-LOC O O O O B-PER I-PER O B-LOC O O O O B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: V8 , Trevor Dodds ( Namibia ) 7 69 124 Don Robertson ( U.S. ) 73 69 , Dion Fourie Z9 7 ,
+Labels: O O B-PER I-PER O B-LOC O O O O B-PER I-PER O I-LOC O O O O B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: Steve Waltman 72 70 , Ian Dougan 73 69
+Labels: B-PER I-PER O O O B-PER I-PER O O
+
+Result: Failed
+
+Perturbed sample: Steve Waltman 27 70 , Ian Dougan 73 Z9
+Labels: B-PER I-PER O O O B-PER I-PER O O
+-----------------------------------------
+Attacking sample: SOCCER - UNCAPPED PLAYERS CALLED TO FACE MACEDONIA .
+Labels: O O O O O O O B-LOC O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - UNCAPPED PLAYERS CALLED TO FACE MACEDONIA .
+Labels: O O O O O O O O O
+-----------------------------------------
+Attacking sample: BUCHAREST 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: BUCHAREST 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Romania trainer Anghel Iordanescu called up three uncapped players on Friday in his squad to face Macedonia next week in a World Cup qualifier .
+Labels: B-LOC O B-PER I-PER O O O O O O O O O O O O B-LOC O O O O B-MISC I-MISC O O
+
+Result: Failed
+
+Perturbed sample: Romania trainer Anghel Iordanescu called up three uncappeud playesr on Frday in his squBad to face Macedonia enxt ewek in a World Cup ualifier .
+Labels: B-LOC O B-PER I-PER O O O O O O O O O O O O B-LOC O O O O B-MISC I-MISC O O
+-----------------------------------------
+Attacking sample: Midfielder Valentin Stefan and striker Viorel Ion of Otelul Galati and defender Liviu Ciobotariu of National Bucharest are the newcomers for the European group eight clash in Macedonia on December 14 .
+Labels: O B-PER I-PER O O B-PER I-PER O B-ORG I-ORG O O B-PER I-PER O B-ORG I-ORG O O O O O B-MISC O O O O B-LOC O O O O
+
+Result: Successful
+
+Perturbed sample: Midfielder Valentin Stefan and strikeE Viorel Ion of Otelul Galati and defevder Liviu Ciobotariu of National Bucharest are the newcomers for the European group eight cUash in Macedonia on December 14 .
+Labels: O B-PER I-PER O O B-PER I-PER O I-ORG I-ORG O O B-PER I-ORG O B-ORG I-ORG O O O O O B-MISC O O O O B-LOC O O O O
+-----------------------------------------
+Attacking sample: Iordanescu said he had picked them because of their good performances in the domestic championship in which National Bucharest are top and Otelul Galati third . "
+Labels: B-PER O O O O O O O O O O O O O O O O B-ORG I-ORG O O O B-ORG I-ORG O O O
+
+Result: Failed
+
+Perturbed sample: Iordanescu sad he had picked them because of their Agood performacnes in the domestic championshyip in which National Bucharest are ttop and Otelul Galati thirM . "
+Labels: I-PER O O O O O O O O O O O O O O O O B-ORG I-ORG O O O I-ORG I-ORG O O O
+-----------------------------------------
+Attacking sample: I think it 's fair to give them a chance , " he told reporters .
+Labels: O O O O O O O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: I think it 's fair to give them a chance , " he told reporters .
+Labels: O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: League title-holders Steaua Bucharest , who finished bottom of their Champions ' League group in the European Cup , have only two players in the squad .
+Labels: O O B-ORG I-ORG O O O O O O B-MISC I-MISC I-MISC O O O B-MISC I-MISC O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: League tHitle-holders Steaua Bucharest , who finished bottom of their Champions ' League group in the European Cup , have only two players in the Gquad .
+Labels: O O I-ORG I-ORG O O O O O O B-MISC I-MISC I-MISC O O O B-MISC I-MISC O O O O O O O O O
+-----------------------------------------
+Attacking sample: Attacking midfielder Adrian Ilie , who recently moved from Steaua to Turkish club Galatasaray , is ruled out after two yellow-card offences .
+Labels: O O B-PER I-PER O O O O O B-ORG O B-MISC O B-ORG O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: AStacking midfielder Adrian Ilie , who reNently moved from Steaua to Turkish club Galatasaray , is ruled out after two yellow-card offences .
+Labels: O O B-PER I-PER O O O O O I-ORG O B-MISC O I-ORG O O O O O O O O O
+-----------------------------------------
+Attacking sample: Squad :
+Labels: O O
+
+Result: Skipped
+
+Perturbed sample: Squad :
+Labels: O O
+-----------------------------------------
+Attacking sample: Goalkeepers - Bogdan Stelea , Florin Prunea .
+Labels: O O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Golakeepers - Bogdan Stelea , Florin Prunea .
+Labels: O O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Defenders - Dan Petrescu , Daniel Prodan , Anton Dobos , Cornel Papura , Liviu Ciobotariu , Tibor Selymess , Iulian Filipescu .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: DefeTnders - Dan Petrescu , Daniel Prodan , Anton Dobos , Cornel Papura , Liviu Ciobotariu , Tibor Selymess , Iulian Filipescu .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Midfielders - Gheorghe Hagi , Gheorghe Popescu , Constantin Galca , Valentin Stefan , Basarab Panduru , Dorinel Munteanu , Ovidiu Stinga .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Midfielders - Gheorghe Hagi , Gheorghe Popescu , Constantin Galca , Valentin Stefan , Basarab Panduru , Dorinel Munteanu , Ovidiu Stinga .
+Labels: O O I-PER I-PER O B-PER I-PER O I-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: Forwards - Ioan Vladoiu , Gheorghe Craioveanu , Ionel Danciulescu , Viorel Ion .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+
+Result: Failed
+
+Perturbed sample: Forwrards - Ioan Vladoiu , Gheorghe Craioveanu , Ionel Danciulescu , Viorel Ion .
+Labels: O O B-PER I-PER O B-PER I-PER O B-PER I-PER O B-PER I-PER O
+-----------------------------------------
+Attacking sample: REUTER
+Labels: B-ORG
+
+Result: Skipped
+
+Perturbed sample: REUTER
+Labels: B-PER
+-----------------------------------------
+Attacking sample: SOCCER - BRAZILIAN CHAMPIONSHIP RESULTS .
+Labels: O O B-MISC O O O
+
+Result: Skipped
+
+Perturbed sample: SOCCER - BRAZILIAN CHAMPIONSHIP RESULTS .
+Labels: O O I-MISC O O O
+-----------------------------------------
+Attacking sample: RIO DE JANEIRO 1996-12-05
+Labels: B-LOC I-LOC I-LOC O
+
+Result: Successful
+
+Perturbed sample: RIO DE JANEIRO 19n6-12-05
+Labels: I-ORG I-ORG I-ORG O
+-----------------------------------------
+Attacking sample: Results of Brazilian
+Labels: O O B-MISC
+
+Result: Failed
+
+Perturbed sample: EResults of Brazilian
+Labels: O O B-MISC
+-----------------------------------------
+Attacking sample: soccer championship semifinal , first leg matches on Thursday .
+Labels: O O O O O O O O O O
+
+Result: Skipped
+
+Perturbed sample: soccer championship semifinal , first leg matches on Thursday .
+Labels: O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Goias 1 Gremio 3
+Labels: B-ORG O B-ORG O
+
+Result: Skipped
+
+Perturbed sample: Goias 1 Gremio 3
+Labels: I-ORG O I-ORG O
+-----------------------------------------
+Attacking sample: Portuguesa 1 Atletico Mineiro 0
+Labels: B-ORG O B-ORG I-ORG O
+
+Result: Failed
+
+Perturbed sample: Portuguesa 1 Atletico Mineiro 0
+Labels: I-ORG O I-ORG I-ORG O
+-----------------------------------------
+Attacking sample: CRICKET - LARA ENDURES ANOTHER MISERABLE DAY .
+Labels: O O B-PER O O O O O
+
+Result: Skipped
+
+Perturbed sample: CRICKET - LARA ENDURES ANOTHER MISERABLE DAY .
+Labels: O O B-LOC O O O O O
+-----------------------------------------
+Attacking sample: Robert Galvin
+Labels: B-PER I-PER
+
+Result: Failed
+
+Perturbed sample: Robert Galvin
+Labels: B-PER I-PER
+-----------------------------------------
+Attacking sample: MELBOURNE 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: MELBOURNE 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Australia gave Brian Lara another reason to be miserable when they beat West Indies by five wickets in the opening World Series limited overs match on Friday .
+Labels: B-LOC O B-PER I-PER O O O O O O O O B-LOC I-LOC O O O O O O B-MISC I-MISC O O O O O O
+
+Result: Successful
+
+Perturbed sample: Australia gave Brian Lara another reason to be miserable when they beat West Indies by five wickets in the oJening World Series limited overs match on Friday .
+Labels: B-LOC O B-PER I-PER O O O O O O O O B-LOC I-LOC O O O O O O I-MISC I-MISC O O O O O O
+-----------------------------------------
+Attacking sample: Lara , disciplined for misconduct on Wednesday , was dismissed for five to extend a disappointing run of form on tour .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Lara , disHiplined for aisconduct on eWdnesday , was dismised for fBive to extend a disapGointing run of for on tour .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Australia , who hold a 2-0 lead in the five-match test series , overhauled West Indies ' total of 172 all out with eight balls to spare to end a run of six successive one-day defeats .
+Labels: B-LOC O O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Australia , who hold a 2-0 lead in the five-match tesW series , overZauled West Indies ' total of 172 all out with eight balls to spPare to Und a rug of six successive Dne-day aefeats .
+Labels: B-LOC O O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: All-rounder Greg Blewett steered his side to a comfortable victory with an unbeaten 57 in 90 balls to the delight of the 42,442 crowd .
+Labels: O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: All-roPnder Greg Blewett setered his sise to a coBfortable victory with an unbeaten F57 in J90 balyls to the delight of the 4,4b2 Wrowd .
+Labels: O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Man-of-the match Blewett came to the wicket with the total on 70 for two and hit three fours during an untroubled innings lasting 129 minutes .
+Labels: O O B-PER O O O O O O O O O O O O O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: Ma-nof-the amtch Blewett came to the wickt with the tLotal on 70 for two and hit three fours during an untroubled ignnings Kasting 129 mintes .
+Labels: O O B-PER O O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: His crucial fifth-wicket partnership with fellow all-rounder Stuart Law , who scored 21 , added 71 off 85 balls .
+Labels: O O O O O O O B-PER I-PER O O O O O O O O O O O
+
+Result: Failed
+
+Perturbed sample: iHs crucial fifth-wicket partnership with fellow all-rounedr Stuart Law , who scored 1 , added 7 off 5 balls .
+Labels: O O O O O O O B-PER I-PER O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Lara looked out of touch during his brief stay at the crease before chipping a simple catch to Shane Warne at mid-wicket .
+Labels: B-PER O O O O O O O O O O O O O O O O O B-PER I-PER O O O
+
+Result: Failed
+
+Perturbed sample: Lara looked out of tuoch during his Mrief sSay at the Qcrease before chipping a simple Ycatch to Shane Warne at mid-iwcket .
+Labels: B-PER O O O O O O O O O O O O O O O O O B-PER I-PER O O O
+-----------------------------------------
+Attacking sample: West Indies tour manager Clive Lloyd has apologised for Lara 's behaviour on Tuesday .
+Labels: B-LOC I-LOC O O B-PER I-PER O O O B-PER O O O O O
+
+Result: Failed
+
+Perturbed sample: West Indies tour Aanager Clive Lloyd has pologised for Lara 's behaviouOr on Tuesdpy .
+Labels: B-LOC I-LOC O O B-PER I-PER O O O B-PER O O O O O
+-----------------------------------------
+Attacking sample: He ( Lara ) had told Australia coach Geoff Marsh that wicketkeeper Ian Healy was unwelcome in the visitors ' dressing room .
+Labels: O O B-PER O O O B-LOC O B-PER I-PER O O B-PER I-PER O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: He ( Lara ) had Btold Australia coach Geoff Marsh that wicketkeeper Ian Healy was unwelcome in the visiPtors ' dressing room .
+Labels: O O B-PER O O I-ORG I-ORG O B-PER I-PER O O B-PER I-PER O O O O O O O O O
+-----------------------------------------
+Attacking sample: The Melbourne crowd were clearly angered by the incident , loudly jeering the West Indies vice-captain as he walked to the middle .
+Labels: O B-LOC O O O O O O O O O O O B-LOC I-LOC O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: The Melbourne crwd were clearly angered by the incident , loudly jeering the West Indies vice-captain as he walked to the middle .
+Labels: O B-ORG O O O O O O O O O O O B-LOC I-LOC O O O O O O O O
+-----------------------------------------
+Attacking sample: It was left to fellow left-hander Shivnarine Chanderpaul to hold the innings together with a gritty 54 despite the handicap of an injured groin .
+Labels: O O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: t was left to fellow left-hander Shivnarine Chanderpaul to hold the innings together with a gritty 54 despite the handicap of an injured groin .
+Labels: O O O O O O I-PER I-PER O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Chanderpaul was forced to rely on a runner for most of his innings after hurting himself as he scurried back to his crease to avoid being run out .
+Labels: B-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+
+Result: Successful
+
+Perturbed sample: Chanderpaul was forecd to relQy on a ruhnner for most of his innings after Ourting himself as he scurried bcak to his rcease to avodi being ru out .
+Labels: I-PER O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+-----------------------------------------
+Attacking sample: Pakistan , who arrive in Australia later this month , are the other team competing in the World Series tournament .
+Labels: B-LOC O O O O B-LOC O O O O O O O O O O O B-MISC I-MISC O O
+
+Result: Failed
+
+Perturbed sample: Pakistan , who barrive in Australia later this monht , are the other teaPm compewing in the World Series tournament .
+Labels: B-LOC O O O O B-LOC O O O O O O O O O O O B-MISC I-MISC O O
+-----------------------------------------
+Attacking sample: CRICKET - AUSTRALIA V WEST INDIES WORLD SERIES SCOREBOARD .
+Labels: O O B-LOC O B-LOC I-LOC B-MISC I-MISC O O
+
+Result: Skipped
+
+Perturbed sample: CRICKET - AUSTRALIA V WEST INDIES WORLD SERIES SCOREBOARD .
+Labels: O O I-LOC O O O O O O O
+-----------------------------------------
+Attacking sample: MELBOURNE 1996-12-06
+Labels: B-LOC O
+
+Result: Skipped
+
+Perturbed sample: MELBOURNE 1996-12-06
+Labels: I-LOC O
+-----------------------------------------
+Attacking sample: Scoreboard in the World Series
+Labels: O O O B-MISC I-MISC
+
+Result: Failed
+
+Perturbed sample: Scorebhard in the World Series
+Labels: O O O B-MISC I-MISC
+-----------------------------------------
+Attacking sample: limited overs match between Australia and West Indies on Friday :
+Labels: O O O O B-LOC O B-LOC I-LOC O O O
+
+Result: Failed
+
+Perturbed sample: limited overs match between Australia and West Indies on FridEy :
+Labels: O O O O B-LOC O B-LOC I-LOC O O O
+-----------------------------------------
+Attacking sample: West Indies
+Labels: B-LOC I-LOC
+
+Result: Failed
+
+Perturbed sample: West Indies
+Labels: B-LOC I-LOC
+-----------------------------------------
+Attacking sample: S. Campbell c Healy b Gillespie 31
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: S. Campbell c Healy b Gillespie 3m1
+Labels: B-PER I-PER O I-PER O B-PER O
+-----------------------------------------
+Attacking sample: R. Samuels c M. Waugh b Gillespie 7
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: R. Samuels c M. Waugh b Gillespie 7
+Labels: B-PER I-PER O B-PER I-PER O B-PER O
+-----------------------------------------
+Attacking sample: B. Lara c Warne b Moody 5
+Labels: B-PER I-PER O B-PER O B-PER O
+
+Result: Failed
+
+Perturbed sample: B. Lara c Warne b Moody 5
+Labels: B-PER I-PER O B-PER O B-PER O

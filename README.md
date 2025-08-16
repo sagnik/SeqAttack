@@ -1,3 +1,9 @@
+## Modifications for 2025
+- install python version 3.7.9.
+- `pip install -r requirements.txt`: i have changed these to pin the dependencies.
+- The `datasets` library is trying to load the conll dataset from a repository that is no longer valid. track the particular file you have to change by looking at the error log (a file in your local installation of the `datasets` dir, and replace `davidsbatista` with `sagnik`). If you forget this step when you run it for the first time, you will get an error from the `datasets` library at the checksum validation stage, so again, modify that lib file to set `verify=False`.
+- Obviously, you should only do this with your local python environment.    
+ 
 # SeqAttack: a framework for adversarial attacks on token classification models
 
 SeqAttack is a framework for conducting adversarial attacks against Named Entity Recognition (NER) models and for data augmentation. This library is heavily based on the popular [TextAttack](https://github.com/QData/TextAttack) framework, and can similarly be used for:
