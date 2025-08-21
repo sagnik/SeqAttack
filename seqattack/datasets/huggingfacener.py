@@ -31,16 +31,20 @@ class NERHuggingFaceDataset(NERDataset):
                             useful to align the model output and the dataset
         """
         if os.path.isfile(name):
-            dataset = json.loads(open(name).read())
-
-            dataset_tokens, dataset_ner_tags = zip(*dataset["samples"])
-            dataset_tokens = [sample.split(" ") for sample in dataset_tokens]
+            #dataset = json.loads(open(name).read())
+            dataset = [json.loads(x) for x in open(name)]
+            dataset_tokens = [x['tokens'] for x in dataset]
+            dataset_ner_tags = [x['ner_tags'] for x in dataset]
+            #dataset_tokens, dataset_ner_tags = zip(*dataset["samples"])
+            #dataset_tokens = [sample.split(" ") for sample in dataset_tokens]
+            print(len(dataset_tokens), dataset_tokens[0])
+            print(len(dataset_ner_tags), dataset_ner_tags[0])
         else:
             dataset = load_dataset(name, None, split=split)
-
             dataset_ner_tags = dataset["ner_tags"]
             dataset_tokens = dataset["tokens"]
-
+            print(len(dataset_ner_tags), dataset_ner_tags[0])
+            print(len(dataset_tokens), dataset_tokens[0])
         if labels_map:
             examples_ner_tags = [
                 [labels_map[tag] for tag in tags]

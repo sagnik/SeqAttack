@@ -24,13 +24,10 @@ class UntargetedNERGoalFunction(NERGoalFunction):
 
     def _get_score_confidence(self, model_output, attacked_text):
         total_score = 0
-
         preds, _, named_entities_mask, all_labels_confidences = self._preprocess_model_output(
             model_output,
             attacked_text)
-
         mapped_ground_truth = self._preprocess_ground_truth(attacked_text)
-
         pred_token_labels = [self.label_names[x] for x in preds]
         truth_token_labels = [self.label_names[x] for x in mapped_ground_truth]
 
