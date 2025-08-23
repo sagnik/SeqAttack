@@ -8,5 +8,6 @@ seqeval==1.2.2
 openattack==2.1.1
 datasets==1.2.0
 tqdm>=4.27.0,<4.50
-numpy=1.18.0
+numpy==1.18.0
 protobuf<4,>=3.20.0
+pydantic==1.8.2

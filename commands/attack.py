@@ -21,7 +21,7 @@ from seqattack.attacks import (
 @click.option("--model-name", default="dslim/bert-base-NER")
 @click.option("--output-path", type=str)
 @click.option("--random-seed", default=567)
-@click.option("--num-examples", default=256)
+@click.option("--num-examples", default=1165)
 @click.option("--max-entities-mispredicted", default=0.8)
 @click.option("--cache/--no-cache", default=False)
 @click.option("--goal-function", default="untargeted")

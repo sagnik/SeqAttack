@@ -1,5 +1,5 @@
 import json
-
+from textattack.attack_results.skipped_attack_result import SkippedAttackResult
 
 class AttackRunner():
     def __init__(
@@ -16,7 +16,6 @@ class AttackRunner():
     def run(self):
         attack_results = []
         attack_iterator = self.attack.attack_dataset(self.dataset)
-
         print("*****************************************")
         print(f"Starting attack on {self.dataset.name}")
         print("*****************************************")
@@ -34,24 +33,23 @@ class AttackRunner():
             print(f"Labels: {sample_labels}")
 
             result = next(attack_iterator)
-
             print()
             print(f"Result: {self.__result_status(result)}")
             print()
 
-            perturbed_text = result.perturbed_result.attacked_text.text
+            perturbed_text = result.perturbed_result.attacked_text.text 
             perturbed_labels = self.__prediction_to_labels(
                 result.perturbed_result.raw_output.tolist(),
                 self.dataset.label_names
-            )
+            ) if result.perturbed_result.raw_output is not None else ["NA"]
 
             perturbed_labels = " ".join(perturbed_labels)
 
             print(f"Perturbed sample: {perturbed_text}")
             print(f"Labels: {perturbed_labels}")
-
             attack_results.append(self.attack_result_to_json(result))
             self.save_results(attack_results)
+
 
     def attack_result_to_json(self, result):
         original_text = result.original_result.attacked_text
@@ -59,8 +57,8 @@ class AttackRunner():
 
         labels_map = original_text.attack_attrs.get("label_names", None)
 
-        original_pred = result.original_result.raw_output.tolist()
-        perturbed_pred = result.perturbed_result.raw_output.tolist()
+        original_pred = result.original_result.raw_output.tolist() if result.original_result.raw_output is not None else [0]
+        perturbed_pred = result.perturbed_result.raw_output.tolist() if result.perturbed_result.raw_output is not None else [0]
 
         try:
             perturbed_words = perturbed_text.words_diff_ratio(original_text)

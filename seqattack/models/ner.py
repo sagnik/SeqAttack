@@ -34,7 +34,6 @@ class NERModelWrapper(ModelWrapper):
                                 prediction error
         """
         encoded = self.encode(text_inputs_list)
-
         with torch.no_grad():
             outputs = [self._predict_single(x) for x in encoded]
 
@@ -42,12 +41,11 @@ class NERModelWrapper(ModelWrapper):
 
         for model_output, original_text in zip(outputs, text_inputs_list):
             tokenized_input = get_tokens(original_text, self.tokenizer)
-
             # If less predictions than the input tokens are returned skip the sample
             if len(tokenized_input) != len(model_output):
                 error_string = f"Tokenized text and model predictions differ in length! (preds: {len(model_output)} vs tokenized: {len(tokenized_input)}) for sample: {original_text}"
-
-                print("Skipping sample")
+                # print(self.tokenizer.decode(encoded[0]))
+                print(f"Skipping sample: {tokenized_input}, len(tokenized_input)={len(tokenized_input)}, len(model_output)={len(model_output)}")
 
                 if raise_excs:
                     raise PredictionError(error_string)

@@ -1,3 +1,4 @@
+import torch
 from seqattack.goal_functions.ner_goal_function_result import NERGoalFunctionResult
 import signal
 import numpy as np
@@ -56,11 +57,12 @@ class NERAttack(Attack):
     def attack_dataset(self, dataset, indices=None):
         # FIXME: Same as superclass
         examples = self._get_examples_from_dataset(dataset, indices=indices)
-
         for goal_function_result in examples:
             if goal_function_result.goal_status == GoalFunctionResultStatus.SKIPPED:
+                # print("Skipping example due to invalid prediction")
                 yield SkippedAttackResult(goal_function_result)
             else:
+                # print("Attacking example:")
                 result = self.attack_one(goal_function_result)
                 yield result
 
@@ -129,8 +131,10 @@ class NERAttack(Attack):
     def _get_examples_from_dataset(self, dataset, indices=None):
         # FIXME: indices is currently ignored
         for example, ground_truth in dataset:
+            # print(f"Processing example: {example}")
+            # print(f"Ground truth: {ground_truth}")
             model_raw, _, valid_prediction = self.__is_example_valid(example)
-
+            # print(f"Valid prediction: {valid_prediction}")
             attacked_text = NERAttackedText(
                 example,
                 attack_attrs={
@@ -140,8 +144,9 @@ class NERAttack(Attack):
                 # FIXME: is this needed?
                 ground_truth=[int(x) for x in ground_truth]
             )
-
+            # print("checking the prediction validity")
             if not valid_prediction:
+                # print("the prediction was not valid, we skip the example")
                 yield NERGoalFunctionResult(
                     attacked_text=attacked_text,
                     raw_output=None,
@@ -152,20 +157,28 @@ class NERAttack(Attack):
                     ground_truth_output=None,
                     unprocessed_raw_output=None
                 )
+                continue # you need this continue to ensure that for the next sample, you start from the beginning of the loop
 
             # If the original prediction mispredicts more entities than
             # max_entities_mispredicted then we skip the example
+            # print("example", example)
             self.goal_function.min_percent_entities_mispredicted = self.max_entities_mispredicted
             goal_function_result, _ = self.goal_function.init_attack_example(
                 attacked_text,
                 ground_truth
             )
-
+            # print(f"the prediction was valid, and we are going to yield a goal function result with status {goal_function_result.goal_status}")
             yield goal_function_result
 
     def __is_example_valid(self, sample):
         """Checks whether the model can correctly predict the sample or not"""
-        model_raw = self.goal_function.model([sample])[0]
-        model_pred = self.goal_function.model.process_raw_output(model_raw, sample)
-
+        #print(f"Checking sample $$: {sample}")
+        #print(self.goal_function.model)
+        #print(self.goal_function.model([sample]))
+        # Get the model prediction for the original sample
+        try:
+            model_raw = self.goal_function.model([sample])[0]
+            model_pred = self.goal_function.model.process_raw_output(model_raw, sample)
+        except IndexError as ex:
+            return None, None, False
         return model_raw, model_pred, len(model_pred) > 0
