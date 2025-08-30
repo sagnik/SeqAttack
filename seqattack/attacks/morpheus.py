@@ -8,7 +8,7 @@ from textattack.constraints.pre_transformation import (
     StopwordModification,
 )
 
-from textattack.shared.attack import Attack
+from textattack import Attack
 from textattack.attack_recipes import AttackRecipe
 from textattack.transformations import WordSwapInflections
 

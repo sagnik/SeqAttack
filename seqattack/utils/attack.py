@@ -3,7 +3,7 @@ from seqattack.goal_functions.ner_goal_function_result import NERGoalFunctionRes
 import signal
 import numpy as np
 
-from textattack.shared import Attack
+from textattack import Attack
 from seqattack.utils.ner_attacked_text import NERAttackedText
 from textattack.goal_function_results import GoalFunctionResultStatus
 
