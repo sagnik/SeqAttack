@@ -41,8 +41,8 @@ class NERHuggingFaceDataset(NERDataset):
             print(len(dataset_ner_tags), dataset_ner_tags[0])
         else:
             dataset = load_dataset(name, None, split=split)
-            dataset_ner_tags = dataset["ner_tags"][:2]
-            dataset_tokens = dataset["tokens"][:2]
+            dataset_ner_tags = dataset["ner_tags"][2:4]
+            dataset_tokens = dataset["tokens"][2:4]
             print(len(dataset_ner_tags), dataset_ner_tags[0])
             print(len(dataset_tokens), dataset_tokens[0])
         if labels_map:

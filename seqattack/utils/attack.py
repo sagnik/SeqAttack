@@ -101,7 +101,7 @@ class NERAttack(Attack):
 
                 self.goal_function.min_percent_entities_mispredicted = target
 
-                result = super().attack(initial_result)
+                result = super()._attack(initial_result)
                 current_score = self.goal_function._get_score(
                     result.perturbed_result.unprocessed_raw_output,
                     result.perturbed_result.attacked_text
