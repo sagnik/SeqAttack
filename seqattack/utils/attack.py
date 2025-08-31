@@ -3,16 +3,20 @@ from seqattack.goal_functions.ner_goal_function_result import NERGoalFunctionRes
 import signal
 import numpy as np
 
-from textattack import Attack
-from seqattack.utils.ner_attacked_text import NERAttackedText
-from textattack.goal_function_results import GoalFunctionResultStatus
+try:
+    from textattack import Attack
+    from seqattack.utils.ner_attacked_text import NERAttackedText
+    from textattack.goal_function_results import GoalFunctionResultStatus
 
-from textattack.attack_results import (
-    FailedAttackResult,
-    SkippedAttackResult,
-    SuccessfulAttackResult,
-)
-
+    from textattack.attack_results import (
+        FailedAttackResult,
+        SkippedAttackResult,
+        SuccessfulAttackResult,
+    )
+except ImportError as ex:
+    raise ImportError(
+        "Please install TextAttack to use this module"
+    ) from ex
 
 class NERAttack(Attack):
     def __init__(
@@ -62,7 +66,6 @@ class NERAttack(Attack):
                 # print("Skipping example due to invalid prediction")
                 yield SkippedAttackResult(goal_function_result)
             else:
-                # print("Attacking example:")
                 result = self.attack_one(goal_function_result)
                 yield result
 
@@ -98,8 +101,7 @@ class NERAttack(Attack):
 
                 self.goal_function.min_percent_entities_mispredicted = target
 
-                result = super().attack_one(initial_result)
-
+                result = super().attack(initial_result)
                 current_score = self.goal_function._get_score(
                     result.perturbed_result.unprocessed_raw_output,
                     result.perturbed_result.attacked_text

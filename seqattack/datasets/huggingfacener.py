@@ -33,16 +33,16 @@ class NERHuggingFaceDataset(NERDataset):
         if os.path.isfile(name):
             #dataset = json.loads(open(name).read())
             dataset = [json.loads(x) for x in open(name)]
-            dataset_tokens = [x['tokens'] for x in dataset][451:] # there's something weird with the data point 450
-            dataset_ner_tags = [x['ner_tags'] for x in dataset][451:]
+            dataset_tokens = [x['tokens'] for x in dataset][:10]
+            dataset_ner_tags = [x['ner_tags'] for x in dataset][:10]
             #dataset_tokens, dataset_ner_tags = zip(*dataset["samples"])
             #dataset_tokens = [sample.split(" ") for sample in dataset_tokens]
             print(len(dataset_tokens), dataset_tokens[0])
             print(len(dataset_ner_tags), dataset_ner_tags[0])
         else:
             dataset = load_dataset(name, None, split=split)
-            dataset_ner_tags = dataset["ner_tags"]
-            dataset_tokens = dataset["tokens"]
+            dataset_ner_tags = dataset["ner_tags"][:2]
+            dataset_tokens = dataset["tokens"][:2]
             print(len(dataset_ner_tags), dataset_ner_tags[0])
             print(len(dataset_tokens), dataset_tokens[0])
         if labels_map:

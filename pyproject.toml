@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.11,<3.14"
 torch = "2.8.0"
-textattack = "0.3.10"
+textattack = { path = "lib/textattack", develop = true }
 tensorflow = "2.18.0"
 tensorflow-hub = "0.16.1"
 pygit2 = "1.18.2"

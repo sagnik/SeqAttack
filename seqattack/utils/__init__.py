@@ -28,6 +28,7 @@ def predictions_per_character(out_tokens, predictions):
     single_char_raw_output = []
 
     for out_token, pred in zip(out_tokens, predictions):
+        pred = np.array(pred) if isinstance(pred, (list, torch.Tensor)) else pred
         prediction_label = np.argmax(pred)
         prediction_confidence = pred[prediction_label]
 

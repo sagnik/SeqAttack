@@ -1,0 +1,4 @@
+[submodule "lib/textattack"]
+	path = lib/textattack
+	url = https://github.com/sagnik/TextAttack.git
+	branch = nermod

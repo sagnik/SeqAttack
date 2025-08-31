@@ -146,7 +146,6 @@ conll2003/*
 datasets/*
 
 # TextAttack folder (local clone)
-textattack/*
 add_labels.py
 pg.py
 data/*

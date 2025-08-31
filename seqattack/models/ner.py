@@ -35,8 +35,10 @@ class NERModelWrapper(ModelWrapper):
         """
         encoded = self.encode(text_inputs_list)
         with torch.no_grad():
-            outputs = [self._predict_single(x) for x in encoded]
-
+            outputs = [self._predict_single(x) for x in encoded] # we have B x T x C, and that triggers the assert statement at the 
+            # end of _call_model_uncached in goal_function.py inside textattack. We could have fixed it here, but 
+            # we would like to keep the original outputs for further processing down the line.
+        outputs = np.array(outputs)
         formatted_outputs = []
 
         for model_output, original_text in zip(outputs, text_inputs_list):
@@ -53,8 +55,7 @@ class NERModelWrapper(ModelWrapper):
                     continue
 
             formatted_outputs.append(model_output)
-    
-        return formatted_outputs
+        return np.array(formatted_outputs)
 
     def process_raw_output(self, raw_output, text_input):
         """
