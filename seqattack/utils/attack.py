@@ -3,7 +3,7 @@ from seqattack.goal_functions.ner_goal_function_result import NERGoalFunctionRes
 import signal
 import numpy as np
 
-from textattack.shared import Attack
+from textattack import Attack
 from seqattack.utils.ner_attacked_text import NERAttackedText
 from textattack.goal_function_results import GoalFunctionResultStatus
 
@@ -12,7 +12,6 @@ from textattack.attack_results import (
     SkippedAttackResult,
     SuccessfulAttackResult,
 )
-
 
 class NERAttack(Attack):
     def __init__(
@@ -62,7 +61,6 @@ class NERAttack(Attack):
                 # print("Skipping example due to invalid prediction")
                 yield SkippedAttackResult(goal_function_result)
             else:
-                # print("Attacking example:")
                 result = self.attack_one(goal_function_result)
                 yield result
 
@@ -98,8 +96,7 @@ class NERAttack(Attack):
 
                 self.goal_function.min_percent_entities_mispredicted = target
 
-                result = super().attack_one(initial_result)
-
+                result = super()._attack(initial_result)
                 current_score = self.goal_function._get_score(
                     result.perturbed_result.unprocessed_raw_output,
                     result.perturbed_result.attacked_text

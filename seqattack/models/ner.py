@@ -35,8 +35,9 @@ class NERModelWrapper(ModelWrapper):
         """
         encoded = self.encode(text_inputs_list)
         with torch.no_grad():
-            outputs = [self._predict_single(x) for x in encoded]
-
+            outputs = [self._predict_single(x) for x in encoded] # we have B x T x C, and that triggers the assert statement at the 
+            # end of _call_model_uncached in goal_function.py inside textattack. We could have fixed it here, but 
+            # we would like to keep the original outputs for further processing down the line.
         formatted_outputs = []
 
         for model_output, original_text in zip(outputs, text_inputs_list):
@@ -53,7 +54,6 @@ class NERModelWrapper(ModelWrapper):
                     continue
 
             formatted_outputs.append(model_output)
-    
         return formatted_outputs
 
     def process_raw_output(self, raw_output, text_input):
@@ -68,17 +68,36 @@ class NERModelWrapper(ModelWrapper):
             tokenized_input)[1]
 
     def _predict_single(self, encoded_sample):
-        outputs = self.model(encoded_sample)[0][0].cpu().numpy()
-        return np.exp(outputs) / np.exp(outputs).sum(-1, keepdims=True)
+        outputs = self.model(encoded_sample)
+        if hasattr(outputs, 'logits'):
+            logits = outputs.logits[0].cpu().numpy()
+        else:
+            logits = outputs[0][0].cpu().numpy()
+        return np.exp(logits) / np.exp(logits).sum(-1, keepdims=True)
 
     def encode(self, inputs):
-        return [self.tokenizer.encode(x, return_tensors="pt") for x in inputs]
+        processed_inputs = []
+        for x in inputs:
+            # Handle AttackedText objects
+            if hasattr(x, 'text'):
+                text = x.text
+            else:
+                text = str(x)
+            encoded = self.tokenizer(text, return_tensors="pt", add_special_tokens=True, padding=False, truncation=True)['input_ids']
+            processed_inputs.append(encoded)
+        return processed_inputs
 
     def _tokenize(self, inputs):
-        return [
-            self.tokenizer.convert_ids_to_tokens(self.tokenizer.encode(x, return_tensors="pt"))
-            for x in inputs
-        ]
+        processed_inputs = []
+        for x in inputs:
+            # Handle AttackedText objects
+            if hasattr(x, 'text'):
+                text = x.text
+            else:
+                text = str(x)
+            tokens = self.tokenizer.convert_ids_to_tokens(self.tokenizer(text, add_special_tokens=True)['input_ids'])
+            processed_inputs.append(tokens)
+        return processed_inputs
 
     @classmethod
     def load_huggingface_model(self, model_name):

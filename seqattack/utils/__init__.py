@@ -10,7 +10,16 @@ from .sequence import pad_sequence
 
 
 def get_tokens(text, tokenizer):
-    return tokenizer.tokenize(tokenizer.decode(tokenizer.encode(text)))
+    if hasattr(tokenizer, 'tokenize'):
+        if hasattr(text, 'text'):
+            text = text.text
+        # Use the tokenizer's encode then decode to handle special tokens properly
+        encoded = tokenizer(text, add_special_tokens=True)['input_ids']
+        decoded = tokenizer.decode(encoded, skip_special_tokens=False)
+        return tokenizer.tokenize(decoded)
+    else:
+        # Fallback for older tokenizer format
+        return tokenizer.tokenize(tokenizer.decode(tokenizer.encode(text)))
 
 
 def predictions_per_character(out_tokens, predictions):
@@ -19,6 +28,7 @@ def predictions_per_character(out_tokens, predictions):
     single_char_raw_output = []
 
     for out_token, pred in zip(out_tokens, predictions):
+        pred = np.array(pred) if isinstance(pred, (list, torch.Tensor)) else pred
         prediction_label = np.argmax(pred)
         prediction_confidence = pred[prediction_label]
 

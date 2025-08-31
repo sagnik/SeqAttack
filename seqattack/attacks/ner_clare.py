@@ -1,6 +1,6 @@
 import transformers
 
-from textattack.shared.attack import Attack
+from textattack import Attack
 from textattack.attack_recipes import AttackRecipe
 from textattack.transformations import WordSwapMaskedLM, CompositeTransformation
 from textattack.constraints.semantics.sentence_encoders import UniversalSentenceEncoder
