@@ -24,6 +24,7 @@ transformers = "4.55.4"
 tokenizers = ">=0.20.0"
 huggingface-hub = ">=0.26.0"
 pytest = "^8.4.1"
+nltk = "^3.9.1"
 
 
 [tool.poetry.group.dev.dependencies]
