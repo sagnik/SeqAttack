@@ -1,7 +1,7 @@
 ## Modifications for 2025
 - This library depends on [TextAttack](https://github.com/QData/TextAttack). For this code to run with the latest version of python, transformers, torch etc., I had to modify some code in that library, which is now tracked at [a branch under my TextAttack](https://github.com/sagnik/TextAttack/tree/nermod). So, instead of using `TextAttack` from `pypi`, you need to use it from local. I have added my `textattack` repo as a submodule to this repo, so if you clone this repo with `git submodule update --init --recursive https://github.com/sagnik/SeqAttack.git`, you should be good. There probably was a better way to handle this, but this was a quick change. 
-- I have added `pyproject.yaml`, so use a python that is `>=3.11<3.14`, and do `poetry install`.
-- For things like TextFooler, you need to do `python -c "import nltk; nltk.download('averaged_perceptron_tagger_eng')`.
+- I have added `pyproject.toml`, so use a python that is `>=3.11<3.14`, and do `poetry install`.
+- For things like TextFooler, you need to do `python -c "import nltk; nltk.download('averaged_perceptron_tagger_eng')"`.
 - I have tested with all the mentioned methods in the README, and the code at least runs, except for `SCPN`, which fails because of some ssl certificate issues that can't be handled. I can't however vouch for the correctness of the outputs.
  
 ## If you want to use old versions
