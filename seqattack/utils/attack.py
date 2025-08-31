@@ -3,20 +3,15 @@ from seqattack.goal_functions.ner_goal_function_result import NERGoalFunctionRes
 import signal
 import numpy as np
 
-try:
-    from textattack import Attack
-    from seqattack.utils.ner_attacked_text import NERAttackedText
-    from textattack.goal_function_results import GoalFunctionResultStatus
+from textattack import Attack
+from seqattack.utils.ner_attacked_text import NERAttackedText
+from textattack.goal_function_results import GoalFunctionResultStatus
 
-    from textattack.attack_results import (
-        FailedAttackResult,
-        SkippedAttackResult,
-        SuccessfulAttackResult,
-    )
-except ImportError as ex:
-    raise ImportError(
-        "Please install TextAttack to use this module"
-    ) from ex
+from textattack.attack_results import (
+    FailedAttackResult,
+    SkippedAttackResult,
+    SuccessfulAttackResult,
+)
 
 class NERAttack(Attack):
     def __init__(
